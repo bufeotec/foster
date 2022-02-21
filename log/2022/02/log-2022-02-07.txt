@@ -1,0 +1,335 @@
+2022-02-07 11:08:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 11:09:24[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 11:09:26[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-02-07 11:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-02-07 11:22:57[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-02-07 11:36:44[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 276[MESSAGGE]Undefined variable: a
+
+2022-02-07 11:36:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 276[MESSAGGE]Undefined variable: a
+
+2022-02-07 12:37:45[UTC -5] [ip] 127.0.0.1 [lugar] AdminController|inicio [texto] Object of class stdClass could not be converted to string
+2022-02-07 12:37:47[UTC -5] [ip] 127.0.0.1 [lugar] AdminController|inicio [texto] Object of class stdClass could not be converted to string
+2022-02-07 12:37:48[UTC -5] [ip] 127.0.0.1 [lugar] AdminController|inicio [texto] Object of class stdClass could not be converted to string
+2022-02-07 12:37:54[UTC -5] [ip] 127.0.0.1 [lugar] AdminController|inicio [texto] Object of class stdClass could not be converted to string
+2022-02-07 12:40:23[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 12:40:23[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 12:41:57[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Pedido.php: 1124[MESSAGGE]Undefined property: Pedido::$venta_direccion
+
+2022-02-07 12:41:57[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Pedido.php: 1143[MESSAGGE]Undefined property: Pedido::$venta_fecha_de_baja
+
+2022-02-07 12:41:58[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\ver_detalle_venta.php: 105[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2022-02-07 13:40:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\ClienteController.php: 181[MESSAGGE]Undefined index: cliente_apellido_paterno_e
+
+2022-02-07 13:40:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\ClienteController.php: 182[MESSAGGE]Undefined index: cliente_apellido_materno_e
+
+2022-02-07 13:40:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\ClienteController.php: 188[MESSAGGE]Undefined index: cliente_estado_e
+
+2022-02-07 15:15:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 15:16:04[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 15:20:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_notas_ventas.php: 180[MESSAGGE]Undefined variable: total
+
+2022-02-07 15:20:53[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\ver_detalle_venta.php: 105[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2022-02-07 15:21:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8192 IN C:\laragon\www\gymcito\app\view\pdf\fpdf\fpdf.php: 1108[MESSAGGE]Function get_magic_quotes_runtime() is deprecated
+
+2022-02-07 15:21:12[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2022-02-07 15:28:35[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\ver_detalle_venta.php: 105[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2022-02-07 15:32:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8192 IN C:\laragon\www\gymcito\app\view\pdf\fpdf\fpdf.php: 1108[MESSAGGE]Function get_magic_quotes_runtime() is deprecated
+
+2022-02-07 15:32:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2022-02-07 15:38:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\VentasController.php: 1792[MESSAGGE]Undefined property: stdClass::$tipodocumento_codigo
+
+2022-02-07 15:38:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8192 IN C:\laragon\www\gymcito\app\view\pdf\fpdf\fpdf.php: 1108[MESSAGGE]Function get_magic_quotes_runtime() is deprecated
+
+2022-02-07 15:38:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2022-02-07 16:05:05[UTC -5] [ip] 127.0.0.1 [lugar] Suscripcion|detalle [texto] syntax error, unexpected ';', expecting ')'
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 124[MESSAGGE]Undefined property: stdClass::$id_tipodocumento
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 125[MESSAGGE]Undefined property: stdClass::$cliente_nombre
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 137[MESSAGGE]Undefined property: stdClass::$cliente_numero
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 138[MESSAGGE]Undefined property: stdClass::$cliente_correo
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_razonsocial
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_nombre
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_numero
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_correo
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_direccion
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_direccion_2
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_telefono
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_fecha
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$cliente_estado
+
+2022-02-07 16:05:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 141[MESSAGGE]Undefined property: stdClass::$id_tipodocumento
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:32:48[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-02-07 16:34:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-02-07 17:04:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Pedido.php: 1124[MESSAGGE]Undefined property: Pedido::$venta_direccion
+
+2022-02-07 17:04:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Pedido.php: 1143[MESSAGGE]Undefined property: Pedido::$venta_fecha_de_baja
+
+2022-02-07 17:04:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\ver_detalle_venta.php: 105[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2022-02-07 17:04:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 154[MESSAGGE]Object of class stdClass could not be converted to number
+
+2022-02-07 17:04:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 154[MESSAGGE]Object of class stdClass could not be converted to number
+
+2022-02-07 17:08:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 154[MESSAGGE]Object of class stdClass could not be converted to number
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_razonsocial
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_nombre
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_numero
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_correo
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_direccion
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_direccion_2
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_telefono
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_fecha
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_estado
+
+2022-02-07 17:09:36[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$id_tipodocumento
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_razonsocial
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_nombre
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_numero
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_correo
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_direccion
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_direccion_2
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_telefono
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_fecha
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$cliente_estado
+
+2022-02-07 19:11:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\detalle.php: 162[MESSAGGE]Undefined property: stdClass::$id_tipodocumento
+
+2022-02-07 21:22:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 21:22:46[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 15[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 16[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 17[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 18[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 19[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 25[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 26[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 27[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:22:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 211[MESSAGGE]Undefined variable: total_soles
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 15[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 16[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 17[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 18[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 19[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 25[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 26[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 27[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 61[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 63[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 65[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:22:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 67[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 15[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 16[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 17[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 18[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 19[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 25[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 26[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 27[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 61[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 63[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 65[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 67[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 15[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 16[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 17[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 18[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 19[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 25[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 26[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 27[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 211[MESSAGGE]Undefined variable: total_soles
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 15[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 16[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 17[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 18[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 19[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 25[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 26[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 27[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 61[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 63[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 65[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_ventas.php: 67[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-07 21:23:21[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\historial_notas_ventas.php: 180[MESSAGGE]Undefined variable: total
+
+2022-02-07 21:23:28[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\ventas\ver_detalle_venta.php: 105[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+

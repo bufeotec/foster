@@ -1,0 +1,294 @@
+2022-02-09 08:16:50[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\foster\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-09 08:17:05[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\foster\app\models\Sesion.php: 116[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:29[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:30[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:30[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:17:30[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:17:46[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 16:17:46[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 16:18:38[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 16:18:39[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 16:18:39[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 24[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 25[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 26[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 27[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 28[MESSAGGE]Undefined variable: tipo_venta
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 34[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 35[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-09 16:19:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\envio_resumen_diario.php: 36[MESSAGGE]Undefined variable: estado_cpe
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:30[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:30[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:30[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 16:19:31[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:35:47[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 17:35:47[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 17:35:47[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:20[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:20[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:36:20[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:20[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:36:20[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 60[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 193[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 195[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 448[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$id_producto_familia
+
+2022-02-09 17:41:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\producto\gestionar.php: 450[MESSAGGE]Undefined property: stdClass::$producto_familia_nombre
+
+2022-02-09 17:42:22[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\models\Pedido.php: 1124[MESSAGGE]Undefined property: Pedido::$venta_direccion
+
+2022-02-09 17:42:22[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\models\Pedido.php: 1143[MESSAGGE]Undefined property: Pedido::$venta_fecha_de_baja
+
+2022-02-09 17:42:25[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\foster\app\view\ventas\ver_detalle_venta.php: 105[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+

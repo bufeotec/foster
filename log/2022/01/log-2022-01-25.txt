@@ -1,0 +1,55 @@
+2022-01-25 17:20:38[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-25 17:20:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\RecetaController.php: 59[MESSAGGE]Undefined index: id
+
+2022-01-25 17:21:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\RecetaController.php: 59[MESSAGGE]Undefined index: id
+
+2022-01-25 17:21:22[UTC -5] [ip] 127.0.0.1 [lugar] Receta|guardar_detalle_receta [texto] SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'detalle_receta_unidad_medida' at row 1
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-01-25 18:40:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-01-25 18:44:02[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-25 18:44:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-25 18:44:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-01-25 20:44:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 20:44:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 20:44:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 20:44:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 20:46:05[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 20:46:05[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 20:46:05[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 20:46:05[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 20:47:24[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 20:47:24[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 29[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 20:47:24[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Undefined variable: tipos_documento
+
+2022-01-25 20:47:24[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\view\suscripciones\inicio.php: 129[MESSAGGE]Invalid argument supplied for foreach()
+
+2022-01-25 20:50:47[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\pedido\delivery.php: 163[MESSAGGE]Undefined variable: parametro
+

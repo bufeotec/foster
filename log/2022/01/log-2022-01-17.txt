@@ -1,0 +1,964 @@
+2022-01-17 16:36:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 16:36:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 17:21:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 17:21:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 17:58:40[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 17:58:40[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 17:59:17[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 17:59:17[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 17:59:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 17:59:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:06:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:06:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:06:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:06:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:06:21[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:06:21[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:06:21[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:06:21[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-01-17 18:06:40[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Trying to get property 'person_afiliac' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Trying to get property 'person_number_account' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 601[MESSAGGE]Undefined variable: id
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Trying to get property 'persona_cuspp' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Trying to get property 'persona_afiliac' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:06:41[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Trying to get property 'persona_account_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Trying to get property 'person_afiliac' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Trying to get property 'person_number_account' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 601[MESSAGGE]Undefined variable: id
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Trying to get property 'persona_cuspp' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Trying to get property 'persona_afiliac' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:09:56[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Trying to get property 'persona_account_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Trying to get property 'person_afiliac' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Trying to get property 'person_number_account' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 601[MESSAGGE]Undefined variable: id
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Trying to get property 'persona_cuspp' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Trying to get property 'persona_afiliac' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Trying to get property 'persona_account_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 562[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 563[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 564[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 565[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 566[MESSAGGE]Trying to get property 'persona_afp' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 571[MESSAGGE]Trying to get property 'person_afiliac' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 577[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 578[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 579[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 580[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 581[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 582[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 583[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 584[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 585[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 586[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 587[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 588[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 589[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 590[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 591[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 592[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 593[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 594[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 595[MESSAGGE]Trying to get property 'person_bank' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 600[MESSAGGE]Trying to get property 'person_number_account' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 601[MESSAGGE]Undefined variable: id
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 607[MESSAGGE]Trying to get property 'persona_cuspp' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 611[MESSAGGE]Trying to get property 'persona_afiliac' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 617[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 618[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 619[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 620[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 621[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 622[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 623[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 624[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 625[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 626[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 627[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 628[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 629[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 630[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 631[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 632[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 633[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 634[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 635[MESSAGGE]Trying to get property 'persona_bank_cts' of non-object
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Undefined variable: person
+
+2022-01-17 18:10:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\humanos\gestion_personal.php: 640[MESSAGGE]Trying to get property 'persona_account_cts' of non-object
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_paterno
+
+2022-01-17 18:11:18[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\cliente\inicio.php: 275[MESSAGGE]Undefined property: stdClass::$cliente_apellido_materno
+
+2022-01-17 18:15:04[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:15:04[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:15:04[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:15:04[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\AlmacenController.php: 55[MESSAGGE]Undefined index: id
+
+2022-01-17 18:15:14[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:15:14[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:15:14[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:15:27[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:15:27[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:15:27[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:15:33[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:15:33[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:15:33[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:19:39[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:19:39[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:19:39[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:34:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:34:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:34:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:34:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:34:13[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:34:13[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:34:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:34:19[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:34:22[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 18:34:22[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 18:34:22[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 18:34:22[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-01-17 19:21:44[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 19:21:44[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 19:21:44[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 19:21:44[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 19:21:46[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 19:21:46[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 19:21:54[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 19:21:54[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 19:21:57[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 19:21:57[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 19:21:57[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 19:21:57[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-01-17 19:25:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 19:25:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 19:25:49[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 21:00:25[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 21:00:25[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 21:00:25[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 21:00:26[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-01-17 21:00:35[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 21:00:35[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 21:00:35[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 21:00:35[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-01-17 21:00:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-17 21:00:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Undefined property: stdClass::$id_user
+
+2022-01-17 21:00:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 63[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-17 21:00:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+

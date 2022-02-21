@@ -1,0 +1,156 @@
+2022-01-21 11:46:43[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-21 11:46:43[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-21 11:47:07[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-21 11:47:07[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\laragon\www\gymcito\app\models\Sesion.php: 100[MESSAGGE]Cookie paths cannot contain any of the following ',; \t\r\n\013\014'
+
+2022-01-21 11:47:09[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-21 11:47:10[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\admin\inicio.php: 273[MESSAGGE]Undefined variable: a
+
+2022-01-21 11:47:34[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-21 11:47:34[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\RecetaController.php: 59[MESSAGGE]Undefined index: id
+
+2022-01-21 11:48:50[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-21 11:48:50[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\controllers\AlmacenController.php: 55[MESSAGGE]Undefined index: id
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:48:59[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\app\view\recursos\gestionar_recursos.php: 217[MESSAGGE]Undefined property: stdClass::$negocio_estado
+
+2022-01-21 11:49:14[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2022-01-21 11:49:28[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\laragon\www\gymcito\core\session.php: 14[MESSAGGE]Undefined index: app
+

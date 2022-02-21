@@ -1,0 +1,196 @@
+2021-08-21 01:45:21[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:45:28[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:45:38[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:45:53[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:45:53[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:58:44[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\controllers\LoginController.php: 46[MESSAGGE]Undefined index: usuario_nickname
+
+2021-08-21 01:59:16[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:59:20[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:59:22[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:59:22[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\admin\inicio.php: 206[MESSAGGE]Undefined variable: a
+
+2021-08-21 01:59:25[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:59:25[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 01:59:41[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\controllers\LoginController.php: 46[MESSAGGE]Undefined index: usuario_nickname
+
+2021-08-21 01:59:46[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\controllers\LoginController.php: 46[MESSAGGE]Undefined index: usuario_nickname
+
+2021-08-21 01:59:59[UTC -5] [ip] ::1 [lugar] VentasController|imprimir_ticket_pdf_local [texto] Class 'Navbar' not found
+2021-08-21 01:59:59[UTC -5] [ip] ::1 [lugar] VentasController|enviar_venta_correo [texto] Could not access file: 
+2021-08-21 02:01:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:01:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:01:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:01:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:01:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:05:34[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:05:34[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:05:34[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:05:34[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:05:34[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:11:51[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:11:51[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:11:51[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:11:51[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:11:51[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:14:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:14:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:14:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:14:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:14:38[UTC -5] [ip] ::1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:22:44[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:23:17[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:23:25[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:23:44[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:32:01[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:34:38[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:35:03[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:35:04[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:35:04[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:40:45[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:41:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:41:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:41:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:41:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:41:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:41:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:41:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:42:37[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:42:37[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:42:37[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:42:37[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:42:37[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:42:37[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:42:47[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:43:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:43:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:43:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:43:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:43:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:43:11[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:45:17[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:45:51[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:45:51[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:45:51[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:45:51[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:45:51[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:45:51[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:46:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:46:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:46:08[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:48:15[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:48:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:48:16[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:48:40[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:48:40[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:48:40[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:48:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:48:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:48:55[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:49:12[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:49:12[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:49:12[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:49:22[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:49:32[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:49:32[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:49:32[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\ver_detalle_venta.php: 98[MESSAGGE]Undefined property: stdClass::$detalle_pago_total
+
+2021-08-21 02:49:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
+2021-08-21 02:49:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php: 35[MESSAGGE]Undefined property: stdClass::$empresa_nombre
+
+2021-08-21 02:49:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 62 and defined
+
+2021-08-21 02:49:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:49:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 2 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 172[MESSAGGE]Missing argument 2 for FPDF::SetMargins(), called in C:\xampp\htdocs\RestobarMarket\app\view\ventas\imprimir_ticket_pdf.php on line 74 and defined
+
+2021-08-21 02:49:42[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\app\view\pdf\fpdf\fpdf.php: 176[MESSAGGE]Undefined variable: top
+
+2021-08-21 02:54:24[UTC -5] [ip] 127.0.0.1 [lugar] Excepcion No Manejada [texto] [LEVEL]: 8 IN C:\xampp\htdocs\RestobarMarket\core\session.php: 14[MESSAGGE]Undefined index: app
+
