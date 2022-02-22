@@ -158,7 +158,10 @@
                                                 <td>
                                                     <?= $al->simbolo.' '.$al->venta_total;?>
                                                 </td>
-                                                <td><center><a type="button" target='_blank' href="<?= _SERVER_ . 'Ventas/imprimir_ticket_pdf/' . $al->id_venta ;?>" style="color: red" ><i class="fa fa-file-pdf-o"></i></a></center></td>
+                                                <td>
+                                                    <!--<center><a type="button" target='_blank' href="<?= _SERVER_ . 'Ventas/imprimir_ticket_pdf/' . $al->id_venta ;?>" style="color: red" ><i class="fa fa-file-pdf-o"></i></a></center>-->
+                                                    <center><a type="button" target='_blank' href="<?= _SERVER_ . 'Ventas/imprimir_ticket_pdf_A4/' . $al->id_venta ;?>" style="color: red" ><i class="fa fa-file-pdf-o"></i></a></center>
+                                                </td>
 
                                                 <td <?= $estilo_mensaje;?>><?= $mensaje;?></td>
                                                 <td style="text-align: left">

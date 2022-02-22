@@ -1643,17 +1643,18 @@ class VentasController
             //$tiempo_fecha = explode(" ", $dato_venta->pago_fecha_emitida);
             //$ruta = _SERVER_ .'media/codigo_qr/'.$dato_pago->pago_seriecorrelativo.'-'.$tiempo_fecha[0].'.png';
             $ruta_qr = "libs/ApiFacturacion/imagenqr/$dato_venta->empresa_ruc-$dato_venta->venta_tipo-$dato_venta->venta_serie-$dato_venta->venta_correlativo.png";
-
-            /*if (!file_exists($ruta_qr)) {
-                $codesDir = "media/codigo_qr/";
-                $codeFile = $dato_venta->pago_seriecorrelativo . '-' . $tiempo_fecha[0] . '.png';
-                $informacion_codificar = $dato_venta->cliente_ruc . "|" . $dato_venta->pago_seriecorrelativo . "|" . $tiempo_fecha[0] . "|" . $dato_venta->pago_total;
-                QRcode::png($informacion_codificar, $codesDir . $codeFile, 'H - mejor', '3');
-                $ruta_qr = 'media/codigo_qr/' . $dato_venta->pago_seriecorrelativo . '-' . $tiempo_fecha[0] . '.png';
-
-                //$qrcode = "$codeFile";
-                //echo '<img class="img-thumbnail" src="'.$codesDir.$codeFile.'" />';
-            }*/
+            $cliente = $this->ventas->listar_clienteventa_x_id($dato_venta->id_cliente);
+            if (!file_exists($ruta_qr)) {
+                //INICIO - CREACION QR
+                $nombre_qr = $dato_venta->empresa_ruc . '-' . $dato_venta->venta_tipo . '-' . $dato_venta->venta_serie . '-' . $dato_venta->venta_correlativo;
+                $contenido_qr = $dato_venta->empresa_ruc . '|' . $dato_venta->venta_tipo . '|' . $dato_venta->venta_serie . '|' . $dato_venta->venta_correlativo . '|' .
+                    $dato_venta->venta_totaligv . '|' . $dato_venta->venta_total . '|' . date('Y-m-d', strtotime($dato_venta->venta_fecha)) . '|' .
+                    $cliente->tipodocumento_codigo . '|' . $cliente->cliente_numero;
+                $ruta = 'libs/ApiFacturacion/imagenqr/';
+                $ruta_qr = $ruta . $nombre_qr . '.png';
+                QRcode::png($contenido_qr, $ruta_qr, 'H - mejor', '3');
+                //FIN - CREACION QR
+            }
 
             if ($dato_venta->venta_tipo == "03") {
                 $tipo_comprobante = "BOLETA DE VENTA ELECTRONICA";
@@ -2234,6 +2235,68 @@ class VentasController
         //Retornamos el json
         echo json_encode(array("result" => array("code" => $return, "message" => $message)));
     }
+    public function imprimir_ticket_pdf_A4(){
+        try{
+            $this->nav = new Navbar();
+            $navs = $this->nav->listar_menus($this->encriptar->desencriptar($_SESSION['ru'], _FULL_KEY_));
+            $idventa = $_GET["id"];
+            $ruta_guardado="";
+            $dato_venta = $this->ventas->listar_venta_x_id_pdf($idventa);
+            if($dato_venta->id_mesa != "-02"){
+                $detalle_venta = $this->ventas->listar_venta_detalle_x_id_venta_pdf($idventa);
+            }else{
+                $detalle_venta = $this->ventas->listar_venta_detalle_x_id_venta_venta($idventa);
+            }
+            $fecha_hoy = $dato_venta->venta_fecha;
+            $ruta_qr = "libs/ApiFacturacion/imagenqr/$dato_venta->empresa_ruc-$dato_venta->venta_tipo-$dato_venta->venta_serie-$dato_venta->venta_correlativo.png";
+            $dnni="DNI";
+            $cliente = $this->ventas->listar_clienteventa_x_id($dato_venta->id_cliente);
+            if (!file_exists($ruta_qr)) {
+                //INICIO - CREACION QR
+                $nombre_qr = $dato_venta->empresa_ruc . '-' . $dato_venta->venta_tipo . '-' . $dato_venta->venta_serie . '-' . $dato_venta->venta_correlativo;
+                $contenido_qr = $dato_venta->empresa_ruc . '|' . $dato_venta->venta_tipo . '|' . $dato_venta->venta_serie . '|' . $dato_venta->venta_correlativo . '|' .
+                    $dato_venta->venta_totaligv . '|' . $dato_venta->venta_total . '|' . date('Y-m-d', strtotime($dato_venta->venta_fecha)) . '|' .
+                    $cliente->tipodocumento_codigo . '|' . $cliente->cliente_numero;
+                $ruta = 'libs/ApiFacturacion/imagenqr/';
+                $ruta_qr = $ruta . $nombre_qr . '.png';
+                QRcode::png($contenido_qr, $ruta_qr, 'H - mejor', '3');
+                //FIN - CREACION QR
+            }
 
+            if ($dato_venta->venta_tipo == "03") {
+                $tipo_comprobante = "BOLETA DE VENTA ELECTRONICA";
+                $serie_correlativo = $dato_venta->venta_serie."-".$dato_venta->venta_correlativo;
+                if($dato_venta->cliente_numero == "11111111"){
+                    $documento = "SIN DOCUMENTO";
+                }else{
+                    $documento = "$dato_venta->cliente_numero";
+                }
+            }else if ($dato_venta->venta_tipo == "01") {
+                $dnni="RUC";
+                $tipo_comprobante = "FACTURA DE VENTA ELECTRONICA";
+                $serie_correlativo = $dato_venta->venta_serie."-".$dato_venta->venta_correlativo;
+                $documento = "$dato_venta->cliente_numero";
+            } else if ($dato_venta->venta_tipo == "07") {
+                $tipo_comprobante = "NOTA DE CRÉDITO DE VENTA ELECTRONICA";
+                $serie_correlativo = $dato_venta->venta_serie."-".$dato_venta->venta_correlativo;
+                $documento = "$dato_venta->cliente_numero";
+            } else {
+                $tipo_comprobante = "NOTA DE DÉBITO DE VENTA ELECTRONICA";
+                $serie_correlativo = $dato_venta->venta_serie."-".$dato_venta->venta_correlativo;
+                $documento = "$dato_venta->cliente_numero";
+            }
+            $importe_letra = $this->numLetra->num2letras(intval($dato_venta->venta_total));
+            $arrayImporte = explode(".", $dato_venta->venta_total);
+            $montoLetras = $importe_letra . ' con ' . $arrayImporte[1] . '/100 ' . $dato_venta->moneda;
+            //$qrcode = $dato_venta->pago_seriecorrelativo . '-' . $tiempo_fecha[0] . '.png';
+            $dato_impresion = 'DATOS DE IMPRESIÓN:';
+            require _VIEW_PATH_ . 'ventas/imprimir_ticket_pdf_A4.php';
+        }catch (Throwable $e) {
+            //En caso de errores insertamos el error generado y redireccionamos a la vista de inicio
+            $this->log->insertar($e->getMessage(), get_class($this) . '|' . __FUNCTION__);
+            echo "<script language=\"javascript\">alert(\"Error Al Mostrar Contenido. Redireccionando Al Inicio\");</script>";
+            echo "<script language=\"javascript\">window.location.href=\"" . _SERVER_ . "\";</script>";
+        }
+    }
 
 }

@@ -238,7 +238,8 @@
                         <a id="enviar_correo" data-toggle="modal" data-target="#enviar_correo_al_cliente" onclick="poner_id_venta(<?= $id;?>);" style="color: white;" class="btn btn-secondary"  ><i class="fa fa-mail-forward"></i> Enviar Correo</a>
                     </div>
                     <div class="col-lg-3">
-                        <a id="imprimir_ticket" style="color: white;" class="btn btn-primary" target="_blank" onclick="ticket_venta(<?= $id; ?>)"><i class="fa fa-print"></i> Imprimir Ticket</a>
+                        <a class="btn btn-danger" target="_blank" href="<?php echo _SERVER_. 'Ventas/imprimir_ticket_pdf_A4/' . $id;?>"><i class="fa fa-file-pdf-o"></i> Imprimir</a>
+                        <!--<a id="imprimir_ticket" style="color: white;" class="btn btn-primary" target="_blank" onclick="ticket_venta(<?= $id; ?>)"><i class="fa fa-print"></i> Imprimir Ticket</a>-->
                     </div>
                 </div>
             </section>
