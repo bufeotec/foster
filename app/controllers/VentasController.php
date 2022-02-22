@@ -1624,7 +1624,7 @@ class VentasController
 
     public function imprimir_ticket_pdf(){
         try{
-            //include('libreria/phpqrcode/qrlib.php');
+            include('libs/ApiFacturacion/phpqrcode/qrlib.php');
             $this->nav = new Navbar();
             $navs = $this->nav->listar_menus($this->encriptar->desencriptar($_SESSION['ru'], _FULL_KEY_));
             $id = $_GET['id'] ?? 0;
@@ -2237,6 +2237,7 @@ class VentasController
     }
     public function imprimir_ticket_pdf_A4(){
         try{
+			include('libs/ApiFacturacion/phpqrcode/qrlib.php');
             $this->nav = new Navbar();
             $navs = $this->nav->listar_menus($this->encriptar->desencriptar($_SESSION['ru'], _FULL_KEY_));
             $idventa = $_GET["id"];
@@ -2278,6 +2279,10 @@ class VentasController
                 $documento = "$dato_venta->cliente_numero";
             } else if ($dato_venta->venta_tipo == "07") {
                 $tipo_comprobante = "NOTA DE CRÉDITO DE VENTA ELECTRONICA";
+                $serie_correlativo = $dato_venta->venta_serie."-".$dato_venta->venta_correlativo;
+                $documento = "$dato_venta->cliente_numero";
+            } else if ($dato_venta->venta_tipo == "20") {
+                $tipo_comprobante = "NOTA DE VENTA ELECTRONICA";
                 $serie_correlativo = $dato_venta->venta_serie."-".$dato_venta->venta_correlativo;
                 $documento = "$dato_venta->cliente_numero";
             } else {

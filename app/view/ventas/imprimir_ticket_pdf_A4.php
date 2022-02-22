@@ -108,13 +108,25 @@ $pdf->SetFont('Helvetica', '', 8);
 $pdf->Cell(70, 3, "$montoLetras", 0,0,'L');
 $pdf->Cell(110, 1, "Descuento: $dato_venta->simbolo $dato_venta->venta_totaldescuento", 0,1,'R');
 $pdf->Ln(7);
-$pdf->Cell(70,1,'BIENES TRANSFERIDOS EN LA',0,0,'R');
+if($dato_venta->venta_tipo != "20"){
+	$pdf->Cell(70,1,'BIENES TRANSFERIDOS EN LA',0,0,'R');
+}else{
+	$pdf->Cell(70,1,'ESTE NO ES UN COMPROBANTE',0,0,'R');
+}
 $pdf->Cell(110, 1, "Op.Grat: $dato_venta->simbolo $dato_venta->venta_totalgratuita", 0,1,'R');
 $pdf->Ln(3);
-$pdf->Cell(70,1,'AMAZONIA PARA SER CONSUMIDOS',0,0,'R');
+if($dato_venta->venta_tipo != "20"){
+	$pdf->Cell(70,1,'AMAZONIA PARA SER CONSUMIDOS',0,0,'R');
+}else{
+	$pdf->Cell(70,1,'VALIDO PARA SUNAT SI REQUIERE UNA',0,0,'R');
+}
 $pdf->Cell(110, 1, "Op.Exon: $dato_venta->simbolo $dato_venta->venta_totalexonerada", 0,1,'R');
 $pdf->Ln(3);
-$pdf->Cell(70,1,'EN LA MISMA',0,0,'R');
+if($dato_venta->venta_tipo != "20"){
+	$pdf->Cell(70,1,'EN LA MISMA',0,0,'R');
+}else{
+	$pdf->Cell(70,1,'BOLETA O FACTURA, SOLICÍTELO',0,0,'R');
+}
 $pdf->Cell(110, 1, "Op.Inaf: $dato_venta->simbolo $dato_venta->venta_totalinafecta", 0,1,'R');
 $pdf->Ln(3);
 $pdf->Cell(180, 1, "Op.Grav: $dato_venta->simbolo $dato_venta->venta_totalgravada", 0,1,'R');
