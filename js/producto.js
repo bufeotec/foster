@@ -149,6 +149,7 @@ function sumar_stock(){
     var valor = true;
     var id_receta_modal = $('#id_receta_modal').val();
     var asignar_stock = $('#asignar_stock').val();
+    var boton = 'btn_stock';
     if(valor) {
         var cadena = "id_receta_modal=" + id_receta_modal +
             "&asignar_stock=" + asignar_stock;
@@ -157,6 +158,9 @@ function sumar_stock(){
             url: urlweb + "api/Producto/sumar_stock_nuevo",
             data: cadena,
             dataType: 'json',
+            beforeSend: function () {
+                cambiar_estado_boton(boton, 'Agregando...', true);
+            },
             success: function (r) {
                 switch (r.result.code) {
                     case 1:
@@ -166,9 +170,11 @@ function sumar_stock(){
                         }, 500);
                         break;
                     case 2:
+                        cambiar_estado_boton(boton, 'Agregar', false);
                         respuesta('Error al agregar, comuniquese con BufeoTec', 'error');
                         break;
                     default:
+                        cambiar_estado_boton(boton, 'Agregar', false);
                         respuesta('¡Algo catastrofico ha ocurrido!', 'error');
                         break;
                 }

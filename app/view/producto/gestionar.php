@@ -374,7 +374,7 @@
                             <input class="form-control" type="text" id="asignar_stock" name="asignar_stock" placeholder="Ingrese Cantidad...">
                         </div>
                         <div class="col-lg-3">
-                            <button class="btn btn-success" onclick="sumar_stock()"><i class="fa fa-plus"></i>Agregar</button>
+                            <button class="btn btn-success" id="btn_stock" onclick="sumar_stock()"><i class="fa fa-plus"></i>Agregar</button>
                         </div>
                     </div>
                 </div>
@@ -473,8 +473,9 @@
                                         <th>ID</th>
                                         <th>Nombre</th>
                                         <th>Descripción</th>
-                                        <th>Codigo de Barra</th>
+                                        <!--<th>Codigo de Barra</th>-->
                                         <th>Precio Venta</th>
+                                        <th>Stock</th>
                                         <th>Foto</th>
                                         <th>Acción</th>
                                     </tr>
@@ -494,9 +495,11 @@
                                             $estilo = "style=\"background-color: #FF6B70\"";
                                         }
 
+                                        $stock = "-";
                                         $validar_solo_una_receta = $this->producto->jalar_recurso_sede_desde_receta_todo($ar->id_receta);
                                         if(count($validar_solo_una_receta) == 1){
                                             $entr = true;
+                                            $stock = $validar_solo_una_receta[0]->recurso_sede_stock;
                                         }else{
                                             $entr = false;
                                         }
@@ -505,8 +508,9 @@
                                             <td><?= $a;?></td>
                                             <td><?= $ar->producto_nombre;?></td>
                                             <td><?= ($ar->producto_descripcion!=null)?$ar->producto_descripcion:'-';?></td>
-                                            <td><?= ($ar->producto_codigo_barra!=Null)?$ar->producto_codigo_barra:'--';?></td>
+                                            <!--<td><?= ($ar->producto_codigo_barra!=Null)?$ar->producto_codigo_barra:'--';?></td>-->
                                             <td><?= $ar->producto_precio_venta;?></td>
+                                            <td><?= $stock;?></td>
                                             <td><img class="rounded" src="<?= $foto;?>" alt="Foto de <?php echo $ar->producto_nombre;?>" width="120"></td>
                                             <td>
                                                 <a class="btn btn-success" onclick="editar_producto(<?= $ar->id_producto?>,'<?= $ar->id_receta?>','<?= $ar->id_familia?>','<?= $ar->producto_nombre?>','<?= $ar->id_unidad_medida?>','<?= $ar->producto_precio_codigoafectacion?>','<?= $ar->producto_descripcion?>','<?= $ar->producto_precio_venta?>','<?= $ar->producto_foto?>','<?= $ar->id_grupo?>','<?= $ar->producto_codigo_barra?>')" data-target="#editarproducto" data-toggle="modal" title='Editar'><i class='fa fa-edit text-white editar margen'></i></a>
