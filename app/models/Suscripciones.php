@@ -27,7 +27,7 @@ class Suscripciones{
 
     public function listar_clientes_activos_por_vencer($fecha){
         try{
-            $fecha_fin = date('Y-m-d', strtotime($fecha . ' + 15 days'));
+            $fecha_fin = date('Y-m-d', strtotime($fecha . ' + 5 days'));
             //$sql = 'select * from clientes where id_tipodocumento = 2';
             $sql = 'select * from suscripciones s inner join clientes c on s.id_cliente = c.id_cliente inner join horarios h on s.id_horario = h.id_horario where s.suscripcion_estado = 1 and (s.suscripcion_fin between ? and ?) order by c.cliente_nombre asc';
             $stm = $this->pdo->prepare($sql);
@@ -159,7 +159,7 @@ class Suscripciones{
     public function listar_suscripciones_cliente($id_cliente){
         try{
 
-            $sql = 'select * from suscripciones s inner join horarios h on s.id_horario = h.id_horario where s.id_cliente = ? order by s.suscripcion_fin desc';
+            $sql = 'select * from suscripciones s inner join horarios h on s.id_horario = h.id_horario where s.id_cliente = ? and s.suscripcion_estado = 1 order by s.suscripcion_fin desc';
             $stm = $this->pdo->prepare($sql);
             $stm->execute([$id_cliente]);
             return $stm->fetchAll();
