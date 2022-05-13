@@ -312,8 +312,8 @@
                             <!--<option value="03">BOLETA</option>
                             <option value="01">FACTURA</option>-->
                             <option value= "">Seleccionar...</option>
-                            <option value="20" selected>NOTA DE VENTA</option>
-                            <option value="03" >BOLETA</option>
+                            <option value="20">NOTA DE VENTA</option>
+                            <option value="03" selected>BOLETA</option>
                             <option value="01">FACTURA</option>
                             <!--<option value= "07">NOTA DE CREDITO</option>
                             <option value= "08">NOTA DE DEBITO</option>-->
