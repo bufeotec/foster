@@ -78,12 +78,21 @@ class Log{
         $fecha1 = new DateTime($inicio);//fecha inicial
         $fecha2 = new DateTime($fin);//fecha de cierre
         $intervalo = $fecha1->diff($fecha2);
-        if(intval($intervalo->format('%m')) > 0){
-            return 'Faltan '.$intervalo->format("%m mes(es), %d dia(s)");
+        //Si invert es 1 es pasado, si es 0 es presente
+        $delta = $intervalo->format('%R');
+        if($delta == "+"){
+            if(intval($intervalo->format('%m')) > 0){
+                return 'Faltan '.$intervalo->format("%m mes(es), %d dia(s)");
+            } else {
+                return 'Faltan '.$intervalo->format("%d dia(s)");
+            }
         } else {
-            return 'Faltan '.$intervalo->format("%d dia(s)");
+            if(intval($intervalo->format('%m')) > 0){
+                return 'Terminó hace '.$intervalo->format("%m mes(es), %d dia(s)");
+            } else {
+                return 'Terminó hace '.$intervalo->format("%d dia(s)");
+            }
         }
-
         /*$dif = date("H:i:s", strtotime($fin) - strtotime($inicio));
         return $dif;*/
     }

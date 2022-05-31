@@ -196,6 +196,7 @@ class ClienteController
             //Validacion de datos
             if($ok_data){
                 $model = new Cliente();
+                $clientito = $this->cliente->listar_cliente_id($_POST['id_cliente']);
                 $model->id_cliente = $_POST['id_cliente'];
                 $model->id_tipodocumento = $_POST['id_tipodocumento_e'];
                 $model->cliente_razonsocial = $_POST['cliente_razonsocial_e'];
@@ -208,15 +209,27 @@ class ClienteController
                 $model->cliente_direccion_2 = $_POST['cliente_direccion_2_e'];
                 $model->cliente_telefono = $_POST['cliente_telefono_e'];
                 $model->cliente_estado = $_POST['cliente_estado_e'];
-                $result = $this->cliente->guardar_cliente($model);
 
+                if ($_FILES['cliente_foto']['tmp_name'] != null) {
+                    //Procesar Nombre Archivo
+                    $info = pathinfo($_FILES['cliente_foto']['name']);
+                    $ext = $info['extension']; // Estraemos la extención del archivo
+                    $docum_nombre = date('Y_m_d_H_i_s'). "_" . $_POST['id_cliente'] . "." . $ext;
+                    $directorio = "media/persona/";
+                    $ruta = $directorio . $docum_nombre;
+                    if (move_uploaded_file($_FILES['cliente_foto']['tmp_name'], $ruta)) {
+                        $model->cliente_foto = $ruta;
+                    } else {
+                        $model->cliente_foto = $clientito->cliente_foto;
+                    }
+                }
+                $result = $this->cliente->guardar_cliente($model);
             }else {
                 //Código 6: Integridad de datos erronea
                 $result = 6;
                 $message = "Integridad de datos fallida. Algún parametro se está enviando mal";
             }
-
-        }catch (Exception $e){
+        } catch (Exception $e){
             //Registramos el error generado y devolvemos el mensaje enviado por PHP
             $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
             $message = $e->getMessage();

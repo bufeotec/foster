@@ -119,7 +119,7 @@ class SuscripcionController
             $this->nav = new Navbar();
             $navs = $this->nav->listar_menus($this->encriptar->desencriptar($_SESSION['ru'],_FULL_KEY_));
             $fecha = date('Y-m-d');
-            $clientes = $this->suscripcion->listar_clientes_activos($fecha);
+            //$clientes = $this->suscripcion->listar_clientes_activos($fecha);
             $horarios = $this->suscripcion->listar_horarios();
             if(isset($_POST['fecha'])){
                 $fecha = $_POST['fecha'];

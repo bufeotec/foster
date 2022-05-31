@@ -183,6 +183,14 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="col-form-label">Foto</label>
+                                        <input class="form-control" type="file" id="cliente_foto" name="cliente_foto" placeholder="Ingrese Información...">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -225,6 +233,7 @@
                             <tr>
                                 <th>ID</th>
                                 <th>Nombre / Razón Social</th>
+                                <th>Foto</th>
                                 <th>DNI/RUC</th>
                                 <th>Dirección</th>
                                 <th>Teléfono</th>
@@ -250,11 +259,18 @@
                                     $nombre = $m->cliente_razonsocial;
                                 }
 
+                                if(empty($m->cliente_foto)){
+                                    $foto = 'Sin Foto';
+                                } else {
+                                    $foto = "<a target='_blank' href='" . _SERVER_ . $m->cliente_foto ."'><img class=\"rounded\" src='" . _SERVER_ . $m->cliente_foto ."' alt=\"Foto\" width=\"80\"></a>";
+                                }
+
                                 ?>
 
                                 <tr>
                                     <td><?= $a;?></td>
                                     <td id="clientenombre<?= $m->id_cliente;?>"><?= $nombre;?></td>
+                                    <td id="clientefoto<?= $m->id_cliente;?>"><?= $foto;?></td>
                                     <td id="clientenumero<?= $m->id_cliente;?>"><?= $m->cliente_numero;?></td>
                                     <td id="clientedireccion<?= $m->id_cliente;?>">
                                         <?php

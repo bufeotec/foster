@@ -223,6 +223,7 @@
                                 <th>ID</th>
                                 <th>Fin Suscripción</th>
                                 <th>Nombre</th>
+                                <th>Foto</th>
                                 <th>Horario</th>
                                 <th>DNI</th>
                                 <th>Correo</th>
@@ -234,6 +235,12 @@
                             $a = 1;
                             $repeticua = [];
                             foreach ($clientes as $m){
+                                if(empty($m->cliente_foto)){
+                                    $foto = 'Sin Foto';
+                                } else {
+                                    $foto = "<a target='_blank' href='" . _SERVER_ . $m->cliente_foto ."'><img class=\"rounded\" src='" . _SERVER_ . $m->cliente_foto ."' alt=\"Foto\" width=\"80\"></a>";
+                                }
+
                                 $mostrar = true;
                                 if(array_search($m->id_cliente, $repeticua) !== false){
                                     $mostrar = false;
@@ -253,6 +260,7 @@
                                         <td><?= $a;?></td>
                                         <td><?= date('d-m-Y', strtotime($m->suscripcion_fin_actual));?></td>
                                         <td id="clientenombre<?= $m->id_suscripcion;?>"><?= $nombre;?></td>
+                                        <td id="clientenombre<?= $m->id_suscripcion;?>"><?= $foto;?></td>
                                         <td id="clientenombre<?= $m->id_suscripcion;?>"><?= date('h:i a', strtotime($m->horario_inicio)) . ' - ' . date('h:i a', strtotime($m->horario_fin));?></td>
                                         <td id="clientenumero<?= $m->id_suscripcion;?>"><?= $m->cliente_numero;?></td>
                                         <td id="clientecorreo<?= $m->id_suscripcion;?>"><?= $m->cliente_correo;?></td>
