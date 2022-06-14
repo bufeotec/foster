@@ -45,11 +45,19 @@ class AdminController{
             // en funciones para llamar vistas y la instaciamos
             $this->nav = new Navbar();
             $contar_ya_por_vencer = 0;
+            $array_nombres = [];
             $clientes = $this->suscripcion->listar_clientes_activos_por_vencer(date('Y-m-d'));
             foreach ($clientes as $cle){
-                $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($cle->suscripcion_fin,$cle->id_cliente);
-                if(!isset($verificar_actualizacion_suscripcion->id_suscripcion)){
-                    $contar_ya_por_vencer++;
+                $pasa = true;
+                if (array_key_exists($cle->id_cliente , $array_nombres)) {
+                    $pasa = false;
+                }
+                if($pasa){
+                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($cle->suscripcion_fin,$cle->id_cliente);
+                    if(!isset($verificar_actualizacion_suscripcion->id_suscripcion)){
+                        $contar_ya_por_vencer++;
+                        $array_nombres[$cle->id_cliente] = $cle->id_cliente . '-';
+                    }
                 }
             }
 

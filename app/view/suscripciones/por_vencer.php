@@ -49,8 +49,8 @@
                                 <th>ID</th>
                                 <th>Fin Suscripción</th>
                                 <th>Dias Faltantes</th>
-                                <th>Horario</th>
                                 <th>Nombre</th>
+                                <th>Horario</th>
                                 <th>DNI</th>
                                 <th>Correo</th>
                                 <th>Acción</th>
@@ -59,13 +59,21 @@
                             <tbody>
                             <?php
                             $a = 1;
+                            $array_nombres = [];
                             foreach ($clientes as $m){
                                 $publicar = true;
 
-                                $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($m->suscripcion_fin, $m->id_cliente);
-                                if(isset($verificar_actualizacion_suscripcion->id_suscripcion)){
+                                if (array_key_exists($m->id_cliente , $array_nombres)) {
                                     $publicar = false;
                                 }
+
+                                if($publicar){
+                                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($m->suscripcion_fin, $m->id_cliente);
+                                    if(isset($verificar_actualizacion_suscripcion->id_suscripcion)){
+                                        $publicar = false;
+                                    }
+                                }
+
                                 if($publicar){
                                     if($m->id_tipodocumento != "4"){
                                         $nombre = $m->cliente_nombre;
@@ -83,10 +91,12 @@
                                         <td id="clientecorreo<?= $m->id_suscripcion;?>"><?= $m->cliente_correo;?></td>
                                         <td>
                                             <button class="btn btn-sm btn-primary btne" onclick="preguntar('¿Desea notificar este vencimiento?','notificar_suscripcion','¡Por Supuesto!','Mejor en Otro Momento',<?= $m->id_suscripcion;?>)" ><i class="fa fa-send"></i></button>
+                                            <a class="btn btn-sm btn-success btne" target="_blank" href="<?= _SERVER_;?>suscripcion/detalle/<?= $m->id_cliente;?>"><i class="fa fa-eye"></i></a>
                                         </td>
                                     </tr>
                                     <?php
                                     $a++;
+                                    $array_nombres[$m->id_cliente] = $m->id_cliente . '-';
                                 }
                             }
                             ?>
