@@ -171,7 +171,7 @@
                                                         <a id="btn_enviar<?= $al->id_venta;?>" type="button" title="Enviar a Sunat" class="btn btn-sm btn-success btne" style="color: white" onclick="preguntar('¿Está seguro que desea enviar a la Sunat este Comprobante?','enviar_comprobante_sunat','Si','No',<?= $al->id_venta;?>)"><i class="fa fa-check margen"></i></a>
                                                         <?php
                                                     }
-                                                    if($al->venta_tipo == "03" and $al->anulado_sunat == "0"){
+                                                    if(($al->venta_tipo == "03" || $al->venta_tipo == "01") and $al->anulado_sunat == "0"){
                                                         ?>
                                                         <a type="button" id="btn_anular_anular<?= $al->id_venta;?>" class="btn btn-sm btn-danger btne" style="color: white" onclick="preguntar('¿Está seguro que desea anular este Comprobante?','anular_boleta_cambiarestado','Si','No',<?= $al->id_venta;?>, '1')" ><i class="fa fa-ban"></i></a>
                                                         <?php

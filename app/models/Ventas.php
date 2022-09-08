@@ -703,6 +703,21 @@ class Ventas
         }
         return $result;
     }
+    public function actualizar_venta_anulado_factura_sinenviar($id_venta){
+        try{
+            $sql = "UPDATE ventas SET venta_condicion_resumen = ?,
+                                             venta_tipo_envio = ?,
+                    anulado_sunat = ?, venta_cancelar = ?, venta_estado_sunat = ?
+                                             where id_venta = ?";
+            $stm = $this->pdo->prepare($sql);
+            $stm->execute([1,1,1,0,1,$id_venta]);
+            $result = 1;
+        } catch (Throwable $e){
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            $result = 2;
+        }
+        return $result;
+    }
     public function actualizar_venta_anulado($id_venta, $estado){
         try{
             $sql = "UPDATE ventas SET venta_condicion_resumen = ?,

@@ -748,8 +748,8 @@ class VentasController
 
                             }
                         }elseif($result['result'] == 4){
-                            $result = 4;
                             $message = $result['mensaje'];
+                            $result = 4;
                         }elseif($result['result'] == 3){
                             $result = 3;
                         }
@@ -1842,8 +1842,12 @@ class VentasController
             if($ok_data) {
                 $id_venta = $_POST['id_venta'];
                 $estado = $_POST['estado'];
-                $result = $this->ventas->actualizar_venta_anulado($id_venta,$estado);
-
+                $dato = $this->ventas->listar_venta_x_id($id_venta);
+                if($dato->venta_tipo == '01'){
+                    $result = $this->ventas->actualizar_venta_anulado_factura_sinenviar($id_venta);
+                }else{
+                    $result = $this->ventas->actualizar_venta_anulado($id_venta,$estado);
+                }
 
             }else {
                 //Código 6: Integridad de datos erronea
