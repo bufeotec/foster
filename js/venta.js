@@ -388,6 +388,10 @@ function realizar_venta(){
     var membresia_inicio = $('#membresia_inicio').val();
     var id_horario = $('#id_horario').val();
 
+    var membresia_crear_suscripcion = $('#membresia_crear_suscripcion').val();
+    var membresia_cantidad_suscripcion = $('#membresia_cantidad_suscripcion').val();
+    var membresia_tiempo_suscripcion = $('#membresia_tiempo_suscripcion').val();
+
     var contenido_tipopago = id_tipo_pago + '-.-.' + saleproduct_total + '/-/-';
 
     var Tipo_documento_modificar = "";
@@ -426,6 +430,10 @@ function realizar_venta(){
     valor = validar_campo_vacio('montototal', saleproduct_total, valor);
     valor = validar_campo_vacio('membresia_inicio', membresia_inicio, valor);
     valor = validar_campo_vacio('id_horario', id_horario, valor);
+
+    valor = validar_campo_vacio('membresia_crear_suscripcion', membresia_crear_suscripcion, valor);
+    valor = validar_campo_vacio('membresia_cantidad_suscripcion', membresia_cantidad_suscripcion, valor);
+    valor = validar_campo_vacio('membresia_tiempo_suscripcion', membresia_tiempo_suscripcion, valor);
     if(valor){
         var cadena = "cliente_numero=" + client_number +
             "&cliente_nombre=" + client_name +
@@ -451,6 +459,9 @@ function realizar_venta(){
             "&vuelto_=" + vuelto_ +
             "&membresia_inicio=" + membresia_inicio +
             "&id_horario=" + id_horario +
+            "&membresia_crear_suscripcion=" + membresia_crear_suscripcion +
+            "&membresia_cantidad_suscripcion=" + membresia_cantidad_suscripcion +
+            "&membresia_tiempo_suscripcion=" + membresia_tiempo_suscripcion +
             "&des_global=" + des_global +
             "&des_total=" + des_total +
             "&igv_=" + saleproduct_igv +

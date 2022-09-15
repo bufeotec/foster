@@ -250,6 +250,66 @@
     </div>
 </div>
 
+<div class="modal fade" id="editar_suscripcion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Editar Membresia</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form enctype="multipart/form-data" method="post" id="editar_suscri_fachera">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div id="cliente_servicio">
+                            <div class="row">
+                                <div class="col-lg-12" >
+                                    <div class="form-group">
+                                        <label class="col-form-label">Inicio</label>
+                                        <input class="form-control" type="hidden" id="id_suscripcion" onkeyup="validar_numeros(this.id)" name="id_suscripcion" maxlength="11" value="1" placeholder="Ingrese Cantidad...">
+                                        <input class="form-control" type="date" id="suscripcion_inicio" name="suscripcion_inicio"  placeholder="Ingrese Cantidad...">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="col-form-label">Fin</label>
+                                        <input class="form-control" type="date" id="suscripcion_fin_actual" name="suscripcion_fin_actual" maxlength="500" placeholder="Ingrese Comentarios...">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="col-form-label">Horario</label>
+                                        <select class="form-control" id="id_horario" name="id_horario" >
+                                            <option value="">Seleccione</option>
+                                            <?php
+                                            foreach ($horarios as $h){
+                                                echo "<option value='".$h->id_horario."' >" . date('h:i a', strtotime($h->horario_inicio)) . ' - ' . date('h:i a', strtotime($h->horario_fin)) . "</option>";
+                                            }
+                                            ?>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="col-form-label">Comentarios</label>
+                                        <textarea class="form-control" type="text" id="suscripcion_comentario" cols="6" name="suscripcion_comentario" maxlength="2000" placeholder="Ingrese Comentarios..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="limpiar()" data-dismiss="modal"><i class="fa fa-close fa-sm text-white-50"></i> Cerrar</button>
+                    <button type="submit" class="btn btn-success" id="btn-editar-uso-suscri"><i class="fa fa-save fa-sm text-white-50"></i> Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <section class="container-fluid">
     <div class="container-fluid">
         <!-- Page Heading -->
@@ -284,6 +344,8 @@
                                 <th>Inicio</th>
                                 <th>Fin</th>
                                 <th>Horario</th>
+                                <th>Comentario</th>
+                                <th>Acción</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -296,7 +358,12 @@
                                     <td><?= $a;?></td>
                                     <td><?= date('d-m-Y', strtotime($m->suscripcion_inicio));?></td>
                                     <td><?= date('d-m-Y', strtotime($m->suscripcion_fin_actual));?></td>
-                                    <td id="clientenombre<?= $m->id_suscripcion;?>"><?= date('h:i a', strtotime($m->horario_inicio)) . ' - ' . date('h:i a', strtotime($m->horario_fin));?></td>
+                                    <td><?= date('h:i a', strtotime($m->horario_inicio)) . ' - ' . date('h:i a', strtotime($m->horario_fin));?></td>
+                                    <td><?= $m->suscripcion_comentario;?></td>
+                                    <td>
+                                        <button class="btn btn-sm btn-primary btne" onclick="info_suscripcion(<?= $m->id_suscripcion;?>, '<?= $m->suscripcion_inicio;?>', '<?= $m->suscripcion_fin_actual;?>', <?= $m->id_horario;?>)" data-toggle="modal" data-target="#editar_suscripcion" ><i class="fa fa-edit"></i></button>
+                                        <button id="btn_eliminar_suscripcion<?= $m->id_suscripcion;?>" class="btn btn-sm btn-danger btne" onclick="preguntar('¿Está seguro que desea eliminar este registro?','eliminar_suscripcion','Si','No',<?= $m->id_suscripcion;?>)"><i class="fa fa-trash"></i></button>
+                                    </td>
                                 </tr>
                                 <?php
                                 $a++;

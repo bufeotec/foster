@@ -1072,8 +1072,34 @@ class VentasController
                                 }
                                 if ($result == 1) {
                                     if($_POST['tipo_venta'] != "01" && $_POST['cliente_numero'] != "11111111"){
-                                        $buscar_agregados = $this->ventas->buscar_producto_precio($id_producto_precio);
-                                        if(count($buscar_agregados) > 0){
+                                        //Nuevo codigo para asociar suscripcion a la venta
+                                        if($_POST['membresia_crear_suscripcion'] == "SI"){
+
+                                            $cantidad_servicio = $_POST['membresia_cantidad_suscripcion'];
+                                            $fecha_inicio = $_POST['membresia_inicio'];
+                                            $fecha_fin = date('Y-m-d', strtotime($fecha_inicio . ' + ' . $_POST['membresia_cantidad_suscripcion'] . ' ' . $_POST['membresia_tiempo_suscripcion']));
+                                            $fecha_fin = date('Y-m-d', strtotime($fecha_fin . ' - 1 days '));
+
+                                            $fecha_registro = date('Y-m-d H:i:s');
+                                            $model_s = new Ventas();
+                                            $model_s->id_cliente = $id_cliente;
+                                            $model_s->id_usuario = $this->encriptar->desencriptar($_SESSION['c_u'],_FULL_KEY_);
+                                            $model_s->id_horario = $_POST['id_horario'];
+                                            $model_s->suscripcion_total = 1;
+                                            $model_s->suscripcion_inicio = $fecha_inicio;
+                                            $model_s->suscripcion_fin = $fecha_fin;
+                                            $model_s->suscripcion_fin_actual = $fecha_fin;
+                                            $model_s->suscripcion_costo = $_POST['venta_total'];
+                                            $model_s->suscripcion_pagado = $_POST['venta_total'];
+                                            $model_s->suscripcion_registro = $fecha_registro;
+                                            $mensualidad = $this->ventas->registrar_suscripcion($model_s);
+                                            if($mensualidad == 1){
+                                                $registrito = $this->ventas->buscar_registro_suscripcion($id_cliente, $fecha_registro);
+                                                $this->ventas->registrar_suscripcion_venta($registrito->id_suscripcion, $id_venta);
+                                            }
+                                        }
+                                        //$buscar_agregados = $this->ventas->buscar_producto_precio($id_producto_precio);
+                                        /*if(count($buscar_agregados) > 0){
                                             foreach ($buscar_agregados as $ba){
                                                 //Hacemos un switch del tipo de agregado
                                                 switch ($ba->agregado_tipo){
@@ -1117,11 +1143,10 @@ class VentasController
                                                         $model_s->servicio_cliente_fin = $fecha_fin;
                                                         $mensualidad = $this->ventas->registrar_servicio_cliente($model_s);
                                                         break;
-                                                    /*case "PRO":
-                                                        break;*/
+
                                                 }
                                             }
-                                        }
+                                        }*/
                                     }
                                     //si es un editar eliminamos primero los detalles antiguos para volver a guardar los nuevos
                                     if(isset($_POST['id_venta'])){

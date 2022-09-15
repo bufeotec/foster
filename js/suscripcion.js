@@ -81,6 +81,60 @@ function notificar_suscripcion(id_suscripcion){
     }
 }
 
+$("#editar_suscri_fachera").on('submit', function(e){
+    e.preventDefault();
+    var valor = true;
+    //Definimos el botón que activa la función
+    var boton = "btn-editar-uso-suscri";
+    //Extraemos las variable según los valores del campo consultado
+    var id_suscripcion = $('#id_suscripcion').val();
+    var suscripcion_inicio = $('#suscripcion_inicio').val();
+    var suscripcion_fin_actual = $('#suscripcion_fin_actual').val();
+    var id_horario = $('#id_horario').val();
+    var suscripcion_comentario = $('#suscripcion_comentario').val();
+
+    valor = validar_campo_vacio('id_suscripcion', id_suscripcion, valor);
+    valor = validar_campo_vacio('suscripcion_inicio', suscripcion_inicio, valor);
+    valor = validar_campo_vacio('suscripcion_fin_actual', suscripcion_fin_actual, valor);
+    valor = validar_campo_vacio('id_horario', id_horario, valor);
+    //valor = validar_campo_vacio('suscripcion_comentario', suscripcion_comentario, valor);
+
+
+    //Si var valor no ha cambiado de valor, procedemos a hacer la llamada de ajax
+    if(valor){
+        //Cadena donde enviaremos los parametros por POST
+        $.ajax({
+            type: "POST",
+            url: urlweb + "api/suscripcion/editar_suscripcion_creada",
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData:false,
+            dataType: 'json',
+            beforeSend: function () {
+                cambiar_estado_boton(boton, 'Guardando...', true);
+            },
+            success:function (r) {
+                cambiar_estado_boton(boton, "<i class=\"fa fa-save fa-sm text-white-50\"></i> Guardar", false);
+                switch (r.result.code) {
+                    case 1:
+                        respuesta('¡Guardado! Recargando...', 'success');
+                        setTimeout(function () {
+                            location.reload();
+                        }, 1000);
+                        break;
+                    case 2:
+                        respuesta('¡Error!', 'error');
+                        break;
+                    default:
+                        respuesta('¡Algo catastrofico ha ocurrido!', 'error');
+                        break;
+                }
+            }
+        });
+    }
+});
+
 
 $("#mebresiaGratuita").on('submit', function(e){
     e.preventDefault();

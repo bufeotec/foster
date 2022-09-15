@@ -126,7 +126,33 @@ class SuscripcionController
             } else {
                 $fecha = date('Y-m-d');
             }
-            $clientes = $this->suscripcion->listar_clientes_activos_por_vencer($fecha);
+            $clientes = $this->suscripcion->listar_clientes_activos_por_vencer_proximos($fecha);
+
+            require _VIEW_PATH_ . 'header.php';
+            require _VIEW_PATH_ . 'navbar.php';
+            require _VIEW_PATH_ . 'suscripciones/por_vencer.php';
+            require _VIEW_PATH_ . 'footer.php';
+        }catch (Throwable $e){
+            //En caso de errores insertamos el error generado y redireccionamos a la vista de inicio
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            echo "<script language=\"javascript\">alert(\"Error Al Mostrar Contenido. Redireccionando Al Inicio\");</script>";
+            echo "<script language=\"javascript\">window.location.href=\"". _SERVER_ ."\";</script>";
+        }
+    }
+
+    public function por_recuperar(){
+        try{
+            $this->nav = new Navbar();
+            $navs = $this->nav->listar_menus($this->encriptar->desencriptar($_SESSION['ru'],_FULL_KEY_));
+            $fecha = date('Y-m-d');
+            //$clientes = $this->suscripcion->listar_clientes_activos($fecha);
+            $horarios = $this->suscripcion->listar_horarios();
+            if(isset($_POST['fecha'])){
+                $fecha = $_POST['fecha'];
+            } else {
+                $fecha = date('Y-m-d');
+            }
+            $clientes = $this->suscripcion->listar_clientes_activos_por_recuperar_proximos($fecha);
 
             require _VIEW_PATH_ . 'header.php';
             require _VIEW_PATH_ . 'navbar.php';
@@ -474,5 +500,41 @@ class SuscripcionController
         }
 
         return $result;
+    }
+
+    public function editar_suscripcion_creada(){
+        //Array donde vamos a recetar los cambios, en caso hagamos alguno
+        $cliente = [];
+        //Código de error general
+        $result = 2;
+        //Mensaje a devolver en caso de hacer consulta por app
+        $message = 'OK';
+        try {
+            $ok_data = true;
+            //Validamos que todos los parametros a recibir sean correctos. De ocurrir un error de validación,
+            //$ok_true se cambiará a false y finalizara la ejecucion de la funcion
+            $ok_data = $this->validar->validar_parametro('id_suscripcion', 'POST', true, $ok_data, 11, 'numero', 0);
+            //Validacion de datos
+            if ($ok_data) {
+                //Editamos
+                $model = new Suscripciones();
+                $model->suscripcion_inicio = $_POST['suscripcion_inicio'];
+                $model->suscripcion_fin_actual = $_POST['suscripcion_fin_actual'];
+                $model->id_horario = $_POST['id_horario'];
+                $model->suscripcion_comentario = $_POST['suscripcion_comentario'];
+                $model->id_suscripcion = $_POST['id_suscripcion'];
+                $result = $this->suscripcion->editar_suscripcion_creada($model);
+            } else {
+                //Código 6: Integridad de datos erronea
+                $result = 6;
+                $message = "Integridad de datos fallida. Algún parametro se está enviando mal";
+            }
+        } catch (Exception $e) {
+            //Registramos el error generado y devolvemos el mensaje enviado por PHP
+            $this->log->insertar($e->getMessage(), get_class($this) . '|' . __FUNCTION__);
+            $message = $e->getMessage();
+        }
+        //Retornamos el json
+        echo json_encode(array("result" => array("code" => $result, "message" => $message, "cliente" => $cliente)));
     }
 }

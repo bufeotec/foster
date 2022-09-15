@@ -345,16 +345,20 @@ class ClienteController
             $cliente = $this->cliente->listar_cliente_x_numero($_POST['numero_dni']);
             $suscripcion = $this->cliente->buscar_ultima_suscripcion_cliente($cliente->id_cliente);
             if(isset($suscripcion->suscripcion_fin_actual)){
+                $campo_fecha = "<input class=\"form-control\" type=\"date\" id=\"membresia_inicio\" name=\"membresia_inicio\" value=\"".date('Y-m-d', strtotime($suscripcion->suscripcion_fin_actual . ' + 1 days'))."\">";
                 $datos = array(
                     'ultima_fecha' => $suscripcion->suscripcion_fin_actual,
                     'nueva_fecha' => date('Y-m-d', strtotime($suscripcion->suscripcion_fin_actual . ' + 1 days')),
+                    'nueva_fecha_campo' => $campo_fecha,
                     'horario' => date('h:i a', strtotime($suscripcion->horario_inicio)) . ' - ' . date('h:i a', strtotime($suscripcion->horario_fin)),
                     'id_horario' => $suscripcion->id_horario
                 );
             } else {
+                $campo_fecha = "<input class=\"form-control\" type=\"date\" id=\"membresia_inicio\" name=\"membresia_inicio\" value=\"".date('Y-m-d')."\">";
                 $datos = array(
                     'ultima_fecha' => "PRIMERA VEZ",
                     'nueva_fecha' => date('Y-m-d'),
+                    'nueva_fecha_campo' => $campo_fecha,
                     'horario' => "PRIMERA VEZ",
                     'id_horario' => "1"
                 );

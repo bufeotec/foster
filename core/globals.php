@@ -19,7 +19,7 @@ date_default_timezone_set('America/Lima');
 define('_SERVER_', 'http://127.0.0.1/foster/');
 //Definicion de variables para conexion de base de datos
 define('_SERVER_DB_', '127.0.0.1');
-define('_DB_', 'gymcitobd');
+define('_DB_', 'fosterbd');
 define('_USER_DB_', 'root');
 define('_PASSWORD_DB_', '');
 

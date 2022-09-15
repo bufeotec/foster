@@ -276,6 +276,14 @@ function eliminar_cliente(id_cliente){
     }
 }
 
+function info_suscripcion(id_suscripcion, suscripcion_inicio, suscripcion_fin_actual, id_horario){
+    $('#id_suscripcion').val(id_suscripcion);
+    $('#suscripcion_inicio').val(suscripcion_inicio);
+    $('#suscripcion_fin_actual').val(suscripcion_fin_actual);
+    $('#id_horario').val(id_horario);
+
+}
+
 
 
 

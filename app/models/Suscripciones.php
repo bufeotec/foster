@@ -40,6 +40,36 @@ class Suscripciones{
         }
     }
 
+    public function listar_clientes_activos_por_vencer_proximos($fecha){
+        try{
+            $fecha_fin = date('Y-m-d', strtotime($fecha . ' + 8 days'));
+            //$fecha_inicio = date('Y-m-d', strtotime($fecha . ' - 60 days'));
+            //$sql = 'select * from clientes where id_tipodocumento = 2';
+            $sql = 'select * from suscripciones s inner join clientes c on s.id_cliente = c.id_cliente inner join horarios h on s.id_horario = h.id_horario where s.suscripcion_estado = 1 and (s.suscripcion_fin between ? and ?) order by c.cliente_nombre asc, s.suscripcion_fin desc';
+            $stm = $this->pdo->prepare($sql);
+            $stm->execute([$fecha, $fecha_fin]);
+            return $stm->fetchAll();
+        } catch (Throwable $e){
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            return [];
+        }
+    }
+
+    public function listar_clientes_activos_por_recuperar_proximos($fecha){
+        try{
+            $fecha_fin = date('Y-m-d', strtotime($fecha . ' -1 days'));
+            $fecha_inicio = date('Y-m-d', strtotime($fecha . ' - 14 days'));
+            //$sql = 'select * from clientes where id_tipodocumento = 2';
+            $sql = 'select * from suscripciones s inner join clientes c on s.id_cliente = c.id_cliente inner join horarios h on s.id_horario = h.id_horario where s.suscripcion_estado = 1 and (s.suscripcion_fin between ? and ?) order by c.cliente_nombre asc, s.suscripcion_fin desc';
+            $stm = $this->pdo->prepare($sql);
+            $stm->execute([$fecha_inicio, $fecha_fin]);
+            return $stm->fetchAll();
+        } catch (Throwable $e){
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            return [];
+        }
+    }
+
     public function listar_clientes_activos_rango_fecha($fecha_inicio, $fecha_fin, $query){
         try{
             //$sql = 'select * from clientes where id_tipodocumento = 2';
@@ -334,6 +364,24 @@ class Suscripciones{
             $stm = $this->pdo->prepare($sql);
             $stm->execute([
                 $id_ficha
+            ]);
+            return 1;
+        } catch (Throwable $e){
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            return 2;
+        }
+    }
+
+    public function editar_suscripcion_creada($model){
+        try{
+            $sql = 'update suscripciones set suscripcion_inicio = ?, suscripcion_fin_actual = ?, id_horario = ?, suscripcion_comentario = ? where id_suscripcion = ?';
+            $stm = $this->pdo->prepare($sql);
+            $stm->execute([
+                $model->suscripcion_inicio,
+                $model->suscripcion_fin_actual,
+                $model->id_horario,
+                $model->suscripcion_comentario,
+                $model->id_suscripcion
             ]);
             return 1;
         } catch (Throwable $e){

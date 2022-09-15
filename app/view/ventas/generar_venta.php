@@ -369,8 +369,46 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
+                        <label for="membresia_crear_suscripcion">¿Generar?</label>
+                        <select class="form-control" name="membresia_crear_suscripcion" id="membresia_crear_suscripcion">
+                            <option value="NO">NO</option>
+                            <option value="SI">SI</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="membresia_cantidad_suscripcion">Cantidad</label>
+                        <select class="form-control" name="membresia_cantidad_suscripcion" id="membresia_cantidad_suscripcion">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="membresia_tiempo_suscripcion">Tiempo</label>
+                        <select class="form-control" name="membresia_tiempo_suscripcion" id="membresia_tiempo_suscripcion">
+                            <option value="month">Mes(es)</option>
+                            <option value="days">Dia(s)</option>
+                        </select>
+                    </div>
+                </div><hr>
+                <div class="row">
+                    <div class="col-lg-4">
                         <label for="mebresia_inicio">Fecha de Inicio:</label>
-                        <input class="form-control" type="date" id="membresia_inicio" name="membresia_inicio" value="<?= date('Y-m-d');?>">
+                        <div id="valor_fechita">
+                            <input class="form-control" type="date" id="membresia_inicio" name="membresia_inicio" value="<?= date('Y-m-d')?>">
+                        </div>
                     </div>
                     <div class="col-lg-4">
                         <label for="id_horario">Horario</label>
@@ -887,7 +925,10 @@
 
                     $("#dia_ultimo").html(r.datos.ultima_fecha);
                     $("#hora_ultimo").html(r.datos.horario);
-                    $("#mebresia_inicio").val(fecha);
+                    //$("#mebresia_inicio").val(fecha);
+                    $("#mebresia_inicio").val("");
+                    $("#mebresia_inicio").val(r.datos.nueva_fecha);
+                    $("#valor_fechita").html(r.datos.nueva_fecha_campo);
                     $("#id_horario").val(r.datos.id_horario);
                 }
             });
@@ -897,7 +938,31 @@
     function ObtenerDatosDni(valor){
         var numero_dni =  valor;
 
-        $.ajax({
+        var formData = new FormData();
+        formData.append("token", "uTZu2aTvMPpqWFuzKATPRWNujUUe7Re1scFlRsTy9Q15k1sjdJVAc9WGy57m");
+        formData.append("dni", numero_dni);
+        var request = new XMLHttpRequest();
+        request.open("POST", "https://api.migo.pe/api/v1/dni");
+        request.setRequestHeader("Accept", "application/json");
+        request.send(formData);
+        //$('.loader').show();
+        request.onload = function() {
+            var data = JSON.parse(this.response);
+            if(data.success){
+                //$('.loader').hide();
+                console.log("Datos Encontrados");
+
+                //$('#cotizacion_beneficiario').val(data.nombre);
+                $("#client_name").val(data.nombre);
+                //$('#cliente_direccion').val('');
+                //$('#cliente_condicion').val("HABIDO");
+            }else{
+                //$('.loader').hide();
+                console.log(data.message);
+            }
+        };
+
+        /*$.ajax({
             type: "POST",
             url: urlweb + "api/Cliente/obtener_datos_x_dni",
             data: "numero_dni="+numero_dni,
@@ -905,13 +970,33 @@
             success:function (r) {
                 $("#client_name").val(r.result.name+ ' ' + r.result.first_name+ ' ' + r.result.last_name);
             }
-        });
+        });*/
     }
 
     function ObtenerDatosRuc(valor){
         var numero_ruc =  valor;
 
-        $.ajax({
+        var formData = new FormData();
+        formData.append("token", "uTZu2aTvMPpqWFuzKATPRWNujUUe7Re1scFlRsTy9Q15k1sjdJVAc9WGy57m");
+        formData.append("ruc", numero_ruc);
+        var request = new XMLHttpRequest();
+        request.open("POST", "https://api.migo.pe/api/v1/ruc");
+        request.setRequestHeader("Accept", "application/json");
+        request.send(formData);
+        $('.loader').show();
+        request.onload = function() {
+            var data = JSON.parse(this.response);
+            if(data.success){
+                //$('.loader').hide();
+                console.log("Datos Encontrados");
+                //$('#cotizacion_beneficiario').val(data.nombre_o_razon_social);
+                $("#client_name").val(data.nombre_o_razon_social);
+            }else{
+                //$('.loader').hide();
+                console.log(data.message);
+            }
+        };
+        /*$.ajax({
             type: "POST",
             url: urlweb + "api/Cliente/obtener_datos_x_ruc",
             data: "numero_ruc="+numero_ruc,
@@ -919,7 +1004,7 @@
             success:function (r) {
                 $("#client_name").val(r.result.razon_social);
             }
-        });
+        });*/
     }
 
     function editar_cantidad_tabla(id){

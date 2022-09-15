@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
                         <?php if(!$fecha_open)
                         {
                             ?>
@@ -158,14 +158,25 @@
                         }
                         ?>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div id="container">
                             <h2>Suscripciones</h2>
-                            <p>Próximas a Caducar</p>
+                            <p>Próximas a Vencer</p>
                             <form>
                                 <input type="text" value="<?= $contar_ya_por_vencer;?>" readonly>
                                 <br>
                                 <a style="color:white;" target="_blank" href="<?= _SERVER_;?>Suscripcion/por_vencer">Ver Todas</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="container">
+                            <h2>Suscripciones</h2>
+                            <p>Pendientes de Recuperar</p>
+                            <form>
+                                <input type="text" value="<?= $contar_ya_por_recuperar;?>" readonly>
+                                <br>
+                                <a style="color:white;" target="_blank" href="<?= _SERVER_;?>Suscripcion/por_recuperar">Ver Todas</a>
                             </form>
                         </div>
                     </div>
