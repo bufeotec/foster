@@ -45,7 +45,7 @@ class Suscripciones{
             $fecha_fin = date('Y-m-d', strtotime($fecha . ' + 8 days'));
             //$fecha_inicio = date('Y-m-d', strtotime($fecha . ' - 60 days'));
             //$sql = 'select * from clientes where id_tipodocumento = 2';
-            $sql = 'select * from suscripciones s inner join clientes c on s.id_cliente = c.id_cliente inner join horarios h on s.id_horario = h.id_horario where s.suscripcion_estado = 1 and (s.suscripcion_fin between ? and ?) order by c.cliente_nombre asc, s.suscripcion_fin desc';
+            $sql = 'select * from suscripciones s inner join clientes c on s.id_cliente = c.id_cliente inner join horarios h on s.id_horario = h.id_horario where s.suscripcion_estado = 1 and (s.suscripcion_fin_actual between ? and ?) order by c.cliente_nombre asc, s.suscripcion_fin_actual desc';
             $stm = $this->pdo->prepare($sql);
             $stm->execute([$fecha, $fecha_fin]);
             return $stm->fetchAll();
@@ -60,7 +60,7 @@ class Suscripciones{
             $fecha_fin = date('Y-m-d', strtotime($fecha . ' -1 days'));
             $fecha_inicio = date('Y-m-d', strtotime($fecha . ' - 14 days'));
             //$sql = 'select * from clientes where id_tipodocumento = 2';
-            $sql = 'select * from suscripciones s inner join clientes c on s.id_cliente = c.id_cliente inner join horarios h on s.id_horario = h.id_horario where s.suscripcion_estado = 1 and (s.suscripcion_fin between ? and ?) order by c.cliente_nombre asc, s.suscripcion_fin desc';
+            $sql = 'select * from suscripciones s inner join clientes c on s.id_cliente = c.id_cliente inner join horarios h on s.id_horario = h.id_horario where s.suscripcion_estado = 1 and (s.suscripcion_fin_actual between ? and ?) order by c.cliente_nombre asc, s.suscripcion_fin_actual desc';
             $stm = $this->pdo->prepare($sql);
             $stm->execute([$fecha_inicio, $fecha_fin]);
             return $stm->fetchAll();
