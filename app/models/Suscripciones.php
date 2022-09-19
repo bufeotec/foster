@@ -243,7 +243,7 @@ class Suscripciones{
     public function buscar_suscripcion_activa_cliente($id_cliente, $fecha){
         try{
 
-            $sql = 'select * from suscripciones where id_cliente = ? and ? between suscripcion_inicio and suscripcion_fin';
+            $sql = 'select * from suscripciones where id_cliente = ? and suscripcion_estado = 1 and ? between suscripcion_inicio and suscripcion_fin_actual';
             $stm = $this->pdo->prepare($sql);
             $stm->execute([$id_cliente, $fecha]);
             return $stm->fetch();
