@@ -45,6 +45,12 @@
                                         <input class="form-control" type="text" id="cliente_nombre" name="cliente_nombre" maxlength="500" placeholder="Ingrese Nombre...">
                                     </div>
                                 </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="col-form-label">Fecha de Nacimiento</label>
+                                        <input class="form-control" type="date" id="cliente_fecha_nacimiento" name="cliente_fecha_nacimiento" >
+                                    </div>
+                                </div>
                                 <!--<div class="col-lg-6">
                                     <div class="form-group">
                                         <label class="col-form-label">Apellido Paterno:</label>
@@ -150,6 +156,12 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
+                                        <label class="col-form-label">Fecha de Nacimiento</label>
+                                        <input class="form-control" type="date" id="cliente_fecha_nacimiento_e" name="cliente_fecha_nacimiento_e" >
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
                                         <label class="col-form-label">Razón Social  o Contacto de Emergencia:</label>
                                         <textarea rows="2" class="form-control" type="text" id="cliente_razonsocial_e" name="cliente_razonsocial_e" maxlength="500" placeholder="Ingrese Razón Social..."></textarea>
                                     </div>
@@ -235,6 +247,7 @@
                                 <th>Nombre / Razón Social</th>
                                 <th>Foto</th>
                                 <th>DNI/RUC</th>
+                                <th>Cumpleaños</th>
                                 <th>Dirección</th>
                                 <th>Teléfono</th>
                                 <th>Correo</th>
@@ -272,6 +285,7 @@
                                     <td id="clientenombre<?= $m->id_cliente;?>"><?= $nombre;?></td>
                                     <td id="clientefoto<?= $m->id_cliente;?>"><?= $foto;?></td>
                                     <td id="clientenumero<?= $m->id_cliente;?>"><?= $m->cliente_numero;?></td>
+                                    <td id="clientefechanacimiento<?= $m->id_cliente;?>"><?php if(!empty($m->cliente_fecha_nacimiento)){echo date('d-m-Y', strtotime($m->cliente_fecha_nacimiento));} else { echo '-';}?></td>
                                     <td id="clientedireccion<?= $m->id_cliente;?>">
                                         <?php
                                         if($m->cliente_direccion != ""){
@@ -288,7 +302,7 @@
                                     <td <?=$estilo_estado;?> id="clienteestado<?= $m->id_cliente?>"><?= $estado;?></td>
                                     <td>
                                         <div id="botoncliente<?= $m->id_cliente;?>">
-                                            <button data-toggle="modal" data-target="#editarCliente" onclick="editar_cliente(<?= $m->id_cliente;?>, '<?= $m->cliente_razonsocial;?>', '<?= $m->cliente_nombre;?>', '<?= $m->cliente_apellido_paterno;?>', '<?= $m->cliente_apellido_materno;?>', '<?= $m->cliente_numero;?>', '<?= $m->cliente_correo;?>','<?= $m->cliente_direccion;?>','<?= $m->cliente_direccion_2;?>','<?= $m->cliente_telefono;?>','<?= $m->cliente_fecha;?>','<?= $m->cliente_estado;?>',<?= $m->id_tipodocumento;?>)"  class="btn btn-sm btn-primary btne" ><i class="fa fa-pencil"></i></button>
+                                            <button data-toggle="modal" data-target="#editarCliente" onclick="editar_cliente(<?= $m->id_cliente;?>, '<?= $m->cliente_razonsocial;?>', '<?= $m->cliente_nombre;?>', '<?= $m->cliente_apellido_paterno;?>', '<?= $m->cliente_apellido_materno;?>', '<?= $m->cliente_numero;?>', '<?= $m->cliente_correo;?>','<?= $m->cliente_direccion;?>','<?= $m->cliente_direccion_2;?>','<?= $m->cliente_telefono;?>','<?= $m->cliente_fecha;?>','<?= $m->cliente_estado;?>',<?= $m->id_tipodocumento;?>,'<?= $m->cliente_fecha_nacimiento;?>')"  class="btn btn-sm btn-primary btne" ><i class="fa fa-pencil"></i></button>
                                         </div>
                                         <a class="btn btn-sm btn-success btne" target="_blank" href="<?= _SERVER_;?>suscripcion/detalle/<?= $m->id_cliente;?>"><i class="fa fa-eye"></i></a>
                                         <div id="">

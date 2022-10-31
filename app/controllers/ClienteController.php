@@ -105,6 +105,11 @@ class ClienteController
                     $model->cliente_direccion = $_POST['cliente_direccion'];
                     $model->cliente_direccion_2 = $_POST['cliente_direccion_2'];
                     $model->cliente_telefono = $_POST['cliente_telefono'];
+                    if(empty($_POST['cliente_fecha_nacimiento'])){
+                        $model->cliente_fecha_nacimiento = null;
+                    } else {
+                        $model->cliente_fecha_nacimiento = $_POST['cliente_fecha_nacimiento'];
+                    }
                     $model->cliente_codigo = $microtime;
                     $model->cliente_estado = 1;
                     $result = $this->cliente->guardar_cliente($model);
@@ -208,6 +213,11 @@ class ClienteController
                 $model->cliente_direccion = $_POST['cliente_direccion_e'];
                 $model->cliente_direccion_2 = $_POST['cliente_direccion_2_e'];
                 $model->cliente_telefono = $_POST['cliente_telefono_e'];
+                if(empty($_POST['cliente_fecha_nacimiento_e'])){
+                    $model->cliente_fecha_nacimiento = null;
+                } else {
+                    $model->cliente_fecha_nacimiento = $_POST['cliente_fecha_nacimiento_e'];
+                }
                 $model->cliente_estado = $_POST['cliente_estado_e'];
 
                 if ($_FILES['cliente_foto']['tmp_name'] != null) {

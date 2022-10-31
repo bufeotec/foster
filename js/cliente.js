@@ -140,7 +140,7 @@ function agregar_cliente_nuevo(){
     }
 }
 
-function editar_cliente(id_cliente, cliente_razonsocial, cliente_nombre,cliente_apellido_paterno,cliente_apellido_materno, cliente_numero, cliente_correo, cliente_direccion,cliente_direccion_2,cliente_telefono, cliente_fecha, cliente_estado, id_tipodocumento){
+function editar_cliente(id_cliente, cliente_razonsocial, cliente_nombre,cliente_apellido_paterno,cliente_apellido_materno, cliente_numero, cliente_correo, cliente_direccion,cliente_direccion_2,cliente_telefono, cliente_fecha, cliente_estado, id_tipodocumento,cliente_fecha_nacimiento){
     $('#id_cliente').val(id_cliente);
     $('#cliente_razonsocial_e').val(cliente_razonsocial);
     $('#cliente_nombre_e').val(cliente_nombre);
@@ -150,6 +150,7 @@ function editar_cliente(id_cliente, cliente_razonsocial, cliente_nombre,cliente_
     $('#cliente_correo_e').val(cliente_correo);
     $('#cliente_direccion_e').val(cliente_direccion);
     $('#cliente_direccion_2_e').val(cliente_direccion_2);
+    $('#cliente_fecha_nacimiento_e').val(cliente_fecha_nacimiento);
     $('#cliente_telefono_e').val(cliente_telefono);
     //$('#cliente_fecha_e').val(cliente_fecha);
     $("#cliente_estado_e").val(cliente_estado);

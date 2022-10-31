@@ -116,6 +116,7 @@ class Cliente
                         cliente_direccion_2 = ?,
                         cliente_telefono = ?,
                         id_tipodocumento = ?,
+                        cliente_fecha_nacimiento = ?,
                         cliente_foto = ?
                         where id_cliente = ?';
                 $stm = $this->pdo->prepare($sql);
@@ -128,13 +129,14 @@ class Cliente
                     $model->cliente_direccion_2,
                     $model->cliente_telefono,
                     $model->id_tipodocumento,
+                    $model->cliente_fecha_nacimiento,
                     $model->cliente_foto,
                     $model->id_cliente
                 ]);
             } else {
                 $sql = 'insert into clientes (id_tipodocumento, cliente_razonsocial, cliente_nombre, 
-                      cliente_numero, cliente_correo, cliente_direccion, cliente_direccion_2 ,cliente_telefono, cliente_fecha, cliente_estado) 
-                      values (?,?,?,?,?,?,?,?,?,?)';
+                      cliente_numero, cliente_correo, cliente_direccion, cliente_direccion_2 ,cliente_telefono, cliente_fecha,cliente_fecha_nacimiento, cliente_estado) 
+                      values (?,?,?,?,?,?,?,?,?,?,?)';
                 $stm = $this->pdo->prepare($sql);
                 $stm->execute([
                     $model->id_tipodocumento,
@@ -146,6 +148,7 @@ class Cliente
                     $model->cliente_direccion_2,
                     $model->cliente_telefono,
                     $fecha_actual,
+                    $model->cliente_fecha_nacimiento,
                     $model->cliente_estado
                 ]);
             }

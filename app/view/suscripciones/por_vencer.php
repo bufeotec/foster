@@ -53,6 +53,7 @@
                                 <th>Horario</th>
                                 <th>DNI</th>
                                 <th>Correo</th>
+                                <th>Telefono</th>
                                 <th>Acción</th>
                             </tr>
                             </thead>
@@ -89,9 +90,17 @@
                                         <td id="clientenombre<?= $m->id_suscripcion;?>"><?= date('h:i a', strtotime($m->horario_inicio)) . ' - ' . date('h:i a', strtotime($m->horario_fin));?></td>
                                         <td id="clientenumero<?= $m->id_suscripcion;?>"><?= $m->cliente_numero;?></td>
                                         <td id="clientecorreo<?= $m->id_suscripcion;?>"><?= $m->cliente_correo;?></td>
+                                        <td id="clientetelefono<?= $m->id_suscripcion;?>"><?= $m->cliente_telefono;?></td>
                                         <td>
                                             <button class="btn btn-sm btn-primary btne" onclick="preguntar('¿Desea notificar este vencimiento?','notificar_suscripcion','¡Por Supuesto!','Mejor en Otro Momento',<?= $m->id_suscripcion;?>)" ><i class="fa fa-send"></i></button>
                                             <a class="btn btn-sm btn-success btne" target="_blank" href="<?= _SERVER_;?>suscripcion/detalle/<?= $m->id_cliente;?>"><i class="fa fa-eye"></i></a>
+                                            <?php
+                                            if(!empty($m->cliente_telefono)){
+                                                ?>
+                                                <a class="btn btn-sm btn-success btne" target="_blank" href="https://wa.me/51<?=str_replace(' ', '', $m->cliente_telefono);?>?text=Hola%20<?=$nombre;?>,%20te%20informamos%20que%20tu%20membresia%20en%20Foster%20Training%20vencer%C3%A1%20el%20d%C3%ADa <?= date('d-m-Y', strtotime($m->suscripcion_fin_actual));?>.%20%C2%A1Acercate%20a%20nuestras%20instalaciones%20para%20renovarla!"><i class="fa fa-whatsapp"></i></a>
+                                                <?php
+                                            }
+                                            ?>
                                         </td>
                                     </tr>
                                     <?php

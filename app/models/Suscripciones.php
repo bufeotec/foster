@@ -25,6 +25,21 @@ class Suscripciones{
         }
     }
 
+    public function listar_clientes_cumples($fecha){
+        try{
+            $fecha_fin = date('m-d', strtotime($fecha . ' + 20 days'));
+            $fecha_inicio = date('m-d', strtotime($fecha . ' - 3 days'));
+            //$sql = 'select * from clientes where id_tipodocumento = 2';
+            $sql = "select * from clientes c where DATE_FORMAT(c.cliente_fecha_nacimiento,'%m-%d') between ? and ? order by DATE_FORMAT(c.cliente_fecha_nacimiento,'%m-%d') asc";
+            $stm = $this->pdo->prepare($sql);
+            $stm->execute([$fecha_inicio, $fecha_fin]);
+            return $stm->fetchAll();
+        } catch (Throwable $e){
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            return [];
+        }
+    }
+
     public function listar_clientes_activos_por_vencer($fecha){
         try{
             $fecha_fin = date('Y-m-d', strtotime($fecha . ' + 10 days'));

@@ -181,6 +181,69 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="row">
+                    <div class="col-lg-12" style="text-align: center; padding-bottom:5px; "><h2><b><u>Listado de Cumpleaños Cercanos</u></b></h2></div>
+                    <div class="col-lg-12">
+                        <!-- DataTales Example -->
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-borderless table-striped table-earning" id="dataTable2" width="100%" cellspacing="0">
+                                        <thead class="text-capitalize">
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Nombre</th>
+                                            <th>Foto</th>
+                                            <th>DNI</th>
+                                            <th>Cumpleaños</th>
+                                            <th>Edad a Cumplir</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php
+                                        $a = 1;
+                                        foreach ($clientes_cumples as $m){
+                                            $estado = "DESHABILITADO";
+                                            $estilo_estado = "class=\"texto-deshabilitado\"";
+                                            if($m->cliente_estado == 1){
+                                                $estado = "HABILITADO";
+                                                $estilo_estado = "class=\"texto-habilitado\"";
+                                            }
+                                            if($m->id_tipodocumento != "4"){
+                                                $nombre = $m->cliente_nombre;
+                                            }else{
+                                                $nombre = $m->cliente_razonsocial;
+                                            }
+
+                                            if(empty($m->cliente_foto)){
+                                                $foto = 'Sin Foto';
+                                            } else {
+                                                $foto = "<a target='_blank' href='" . _SERVER_ . $m->cliente_foto ."'><img class=\"rounded\" src='" . _SERVER_ . $m->cliente_foto ."' alt=\"Foto\" width=\"80\"></a>";
+                                            }
+
+                                            ?>
+
+                                            <tr>
+                                                <td><?= $a;?></td>
+                                                <td id="clientenombre<?= $m->id_cliente;?>"><?= $nombre;?></td>
+                                                <td id="clientefoto<?= $m->id_cliente;?>"><?= $foto;?></td>
+                                                <td id="clientenumero<?= $m->id_cliente;?>"><?= $m->cliente_numero;?></td>
+                                                <td id="clientefechanacimiento<?= $m->id_cliente;?>"><?php if(!empty($m->cliente_fecha_nacimiento)){echo date('d-m-Y', strtotime($m->cliente_fecha_nacimiento));} else { echo '-';}?></td>
+                                                <td id="clientecorreo<?= $m->id_cliente;?>"><?= intval(date('Y')) - intval(date('Y', strtotime($m->cliente_fecha_nacimiento)));?></td>
+                                            </tr>
+                                            <?php
+                                            $a++;
+                                        }
+                                        ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <?php

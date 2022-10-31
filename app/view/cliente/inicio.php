@@ -45,18 +45,12 @@
                                         <input class="form-control" type="text" id="cliente_nombre" name="cliente_nombre" maxlength="500" placeholder="Ingrese Nombre...">
                                     </div>
                                 </div>
-                                <!--<div class="col-lg-6">
+                                <div class="col-lg-12">
                                     <div class="form-group">
-                                        <label class="col-form-label">Apellido Paterno:</label>
-                                        <input class="form-control" type="text" id="cliente_apellido_paterno" name="cliente_apellido_paterno" maxlength="200" placeholder="Ingrese Apellido...">
+                                        <label class="col-form-label">Fecha de Nacimiento</label>
+                                        <input class="form-control" type="date" id="cliente_fecha_nacimiento" name="cliente_fecha_nacimiento" >
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <label class="col-form-label">Apellido Materno:</label>
-                                        <input class="form-control" type="text" id="cliente_apellido_materno" name="cliente_apellido_materno" maxlength="200" placeholder="Ingrese Apellido...">
-                                    </div>
-                                </div>-->
                             </div>
                             <div class="row">
                                 <div class="col-lg-12" id="div_razon_social">
@@ -150,6 +144,12 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
+                                        <label class="col-form-label">Fecha de Nacimiento</label>
+                                        <input class="form-control" type="date" id="cliente_fecha_nacimiento_e" name="cliente_fecha_nacimiento_e" >
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
                                         <label class="col-form-label">Razón Social o Contacto de Emergencia:</label>
                                         <textarea rows="2" class="form-control" type="text" id="cliente_razonsocial_e" name="cliente_razonsocial_e" maxlength="500" placeholder="Ingrese Razón Social..."></textarea>
                                     </div>
@@ -235,6 +235,7 @@
                                         <th>Nombre / Razón Social</th>
                                         <th>Foto</th>
                                         <th>DNI/RUC</th>
+                                        <th>Cumpleaños</th>
                                         <th>Dirección</th>
                                         <th>Teléfono</th>
                                         <th>Correo</th>
@@ -272,6 +273,7 @@
                                             <td id="clientenombre<?= $m->id_cliente;?>"><?= $nombre;?></td>
                                             <td id="clientefoto<?= $m->id_cliente;?>"><?= $foto;?></td>
                                             <td id="clientenumero<?= $m->id_cliente;?>"><?= $m->cliente_numero;?></td>
+                                            <td id="clientefechanacimiento<?= $m->id_cliente;?>"><?php if(!empty($m->cliente_fecha_nacimiento)){echo date('d-m-Y', strtotime($m->cliente_fecha_nacimiento));} else { echo '-';}?></td>
                                             <td id="clientedireccion<?= $m->id_cliente;?>">
                                                 <?php
                                                 if($m->cliente_direccion != ""){
@@ -288,7 +290,7 @@
                                             <td <?=$estilo_estado;?> id="clienteestado<?= $m->id_cliente?>"><?= $estado;?></td>
                                             <td>
                                                 <div id="botoncliente<?= $m->id_cliente;?>">
-                                                    <button data-toggle="modal" data-target="#editarCliente" onclick="editar_cliente(<?= $m->id_cliente;?>, '<?= $m->cliente_razonsocial;?>', '<?= $m->cliente_nombre;?>', '<?= $m->cliente_apellido_paterno;?>', '<?= $m->cliente_apellido_materno;?>', '<?= $m->cliente_numero;?>', '<?= $m->cliente_correo;?>','<?= $m->cliente_direccion;?>','<?= $m->cliente_direccion_2;?>','<?= $m->cliente_telefono;?>','<?= $m->cliente_fecha;?>','<?= $m->cliente_estado;?>',<?= $m->id_tipodocumento;?>)"  class="btn btn-sm btn-primary btne" ><i class="fa fa-pencil"></i></button>
+                                                    <button data-toggle="modal" data-target="#editarCliente" onclick="editar_cliente(<?= $m->id_cliente;?>, '<?= $m->cliente_razonsocial;?>', '<?= $m->cliente_nombre;?>', '<?= $m->cliente_apellido_paterno;?>', '<?= $m->cliente_apellido_materno;?>', '<?= $m->cliente_numero;?>', '<?= $m->cliente_correo;?>','<?= $m->cliente_direccion;?>','<?= $m->cliente_direccion_2;?>','<?= $m->cliente_telefono;?>','<?= $m->cliente_fecha;?>','<?= $m->cliente_estado;?>',<?= $m->id_tipodocumento;?>,'<?= $m->cliente_fecha_nacimiento;?>')"  class="btn btn-sm btn-primary btne" ><i class="fa fa-pencil"></i></button>
                                                 </div>
                                                 <div id="">
                                                     <button id="btn-eliminar_cliente<?= $m->id_cliente;?>" class="btn btn-sm btn-danger btne" onclick="preguntar('¿Está seguro que desea eliminar este registro?','eliminar_cliente','Si','No',<?= $m->id_cliente;?>)"><i class="fa fa-trash"></i></button>
@@ -379,7 +381,7 @@
             }
         }else if(tipo_doc == "4"){
             if (valor.length==11){
-            ObtenerDatosRuc_e(valor);
+                ObtenerDatosRuc_e(valor);
             }else{
                 alert('El numero debe tener 11 digitos');
             }
@@ -388,65 +390,100 @@
 
     function ObtenerDatosDni(valor){
         var numero_dni =  valor;
-        var cliente_nombre = 'cliente_nombre';
 
-        $.ajax({
-            type: "POST",
-            url: urlweb + "api/Cliente/obtener_datos_x_dni",
-            data: "numero_dni="+numero_dni,
-            dataType: 'json',
-            beforeSend: function () {
-                cambiar_estado_boton(cliente_nombre, 'buscando...', true);
-            },
-            success:function (r) {
-                cambiar_estado_boton(cliente_nombre, "", false);
-                $("#cliente_nombre").val(r.result.name+ ' ' + r.result.first_name+ ' ' + r.result.last_name);
+        var formData = new FormData();
+        formData.append("token", "uTZu2aTvMPpqWFuzKATPRWNujUUe7Re1scFlRsTy9Q15k1sjdJVAc9WGy57m");
+        formData.append("dni", numero_dni);
+        var request = new XMLHttpRequest();
+        request.open("POST", "https://api.migo.pe/api/v1/dni");
+        request.setRequestHeader("Accept", "application/json");
+        request.send(formData);
+        //$('.loader').show();
+        request.onload = function() {
+            var data = JSON.parse(this.response);
+            if(data.success){
+                console.log("Datos Encontrados");
+                $("#cliente_nombre").val(data.nombre);
+            }else{
+                //$('.loader').hide();
+                console.log(data.message);
+                alert(data.message);
             }
-        });
+        };
     }
+
     function ObtenerDatosRuc(valor){
         var numero_ruc =  valor;
-        var cliente_razonsocial = 'cliente_razonsocial';
 
-        $.ajax({
-            type: "POST",
-            url: urlweb + "api/Cliente/obtener_datos_x_ruc",
-            data: "numero_ruc="+numero_ruc,
-            dataType: 'json',
-            beforeSend: function () {
-                cambiar_estado_boton(cliente_razonsocial, 'buscando...', true);
-            },
-            success:function (r) {
-                cambiar_estado_boton(cliente_razonsocial, "", false);
-                $("#cliente_razonsocial").val(r.result.razon_social);
+        var formData = new FormData();
+        formData.append("token", "uTZu2aTvMPpqWFuzKATPRWNujUUe7Re1scFlRsTy9Q15k1sjdJVAc9WGy57m");
+        formData.append("ruc", numero_ruc);
+        var request = new XMLHttpRequest();
+        request.open("POST", "https://api.migo.pe/api/v1/ruc");
+        request.setRequestHeader("Accept", "application/json");
+        request.send(formData);
+        $('.loader').show();
+        request.onload = function() {
+            var data = JSON.parse(this.response);
+            if(data.success){
+                //$('.loader').hide();
+                console.log("Datos Encontrados");
+                //$('#cotizacion_beneficiario').val(data.nombre_o_razon_social);
+                $("#cliente_razonsocial").val(data.nombre_o_razon_social);
+            }else{
+                //$('.loader').hide();
+                console.log(data.message);
             }
-        });
+        };
     }
+
+
     function ObtenerDatosDni_e(valor){
         var numero_dni =  valor;
 
-        $.ajax({
-            type: "POST",
-            url: urlweb + "api/Cliente/obtener_datos_x_dni",
-            data: "numero_dni="+numero_dni,
-            dataType: 'json',
-            success:function (r) {
-                $("#cliente_nombre_e").val(r.result.name+ ' ' + r.result.first_name+ ' ' + r.result.last_name);
+        var formData = new FormData();
+        formData.append("token", "uTZu2aTvMPpqWFuzKATPRWNujUUe7Re1scFlRsTy9Q15k1sjdJVAc9WGy57m");
+        formData.append("dni", numero_dni);
+        var request = new XMLHttpRequest();
+        request.open("POST", "https://api.migo.pe/api/v1/dni");
+        request.setRequestHeader("Accept", "application/json");
+        request.send(formData);
+        //$('.loader').show();
+        request.onload = function() {
+            var data = JSON.parse(this.response);
+            if(data.success){
+                console.log("Datos Encontrados");
+                $("#cliente_nombre_e").val(data.nombre);
+            }else{
+                //$('.loader').hide();
+                console.log(data.message);
+                alert(data.message);
             }
-        });
+        };
     }
     function ObtenerDatosRuc_e(valor){
         var numero_ruc =  valor;
 
-        $.ajax({
-            type: "POST",
-            url: urlweb + "api/Cliente/obtener_datos_x_ruc",
-            data: "numero_ruc="+numero_ruc,
-            dataType: 'json',
-            success:function (r) {
-                $("#cliente_razonsocial_e").val(r.result.razon_social);
+        var formData = new FormData();
+        formData.append("token", "uTZu2aTvMPpqWFuzKATPRWNujUUe7Re1scFlRsTy9Q15k1sjdJVAc9WGy57m");
+        formData.append("ruc", numero_ruc);
+        var request = new XMLHttpRequest();
+        request.open("POST", "https://api.migo.pe/api/v1/ruc");
+        request.setRequestHeader("Accept", "application/json");
+        request.send(formData);
+        $('.loader').show();
+        request.onload = function() {
+            var data = JSON.parse(this.response);
+            if(data.success){
+                //$('.loader').hide();
+                console.log("Datos Encontrados");
+                //$('#cotizacion_beneficiario').val(data.nombre_o_razon_social);
+                $("#cliente_razonsocial_e").val(data.nombre_o_razon_social);
+            }else{
+                //$('.loader').hide();
+                console.log(data.message);
             }
-        });
+        };
     }
 </script>
 

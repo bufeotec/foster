@@ -46,6 +46,7 @@ class AdminController{
             $this->nav = new Navbar();
             $contar_ya_por_vencer = 0;
             $array_nombres = [];
+            $clientes_cumples = $this->suscripcion->listar_clientes_cumples(date('Y-m-d'));
             $clientes = $this->suscripcion->listar_clientes_activos_por_vencer_proximos(date('Y-m-d'));
             foreach ($clientes as $cle){
                 $pasa = true;
