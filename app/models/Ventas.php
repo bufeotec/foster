@@ -312,6 +312,21 @@ class Ventas
         }
         return $result;
     }
+
+    public function listar_venta_detalle_x_id_venta_sin_comandas($id){
+        try{
+            $sql = "SELECT * FROM ventas_detalle vd INNER JOIN producto_precio pp on vd.id_producto_precio = pp.id_producto_precio inner join unidad_medida um on 
+                    pp.id_unidad_medida = um.id_medida inner join tipo_afectacion ta on pp.producto_precio_codigoafectacion = ta.codigo
+                    inner join productos p on pp.id_producto = p.id_producto where vd.id_venta = ? and pp.producto_precio_estado = 1";
+            $stm = $this->pdo->prepare($sql);
+            $stm->execute([$id]);
+            $result = $stm->fetchAll();
+        } catch (Throwable $e){
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            $result = [];
+        }
+        return $result;
+    }
     public function listar_nota_venta_detalle_x_id_venta_editar($id){
         try{
             $sql = "SELECT * FROM ventas_detalle vd INNER JOIN producto_precio pp on vd.id_producto_precio = pp.id_producto_precio 

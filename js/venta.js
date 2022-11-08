@@ -387,6 +387,7 @@ function realizar_venta(){
     var contenido_cuota = $('#contenido_cuota').val();
     var membresia_inicio = $('#membresia_inicio').val();
     var id_horario = $('#id_horario').val();
+    var ticketcito = $('#ticketcito').val();
 
     var membresia_crear_suscripcion = $('#membresia_crear_suscripcion').val();
     var membresia_cantidad_suscripcion = $('#membresia_cantidad_suscripcion').val();
@@ -465,6 +466,7 @@ function realizar_venta(){
             "&des_global=" + des_global +
             "&des_total=" + des_total +
             "&igv_=" + saleproduct_igv +
+            "&ticketcito=" + ticketcito +
             "&id_mesa=-2" +
             "&contenido_tipopago=" + contenido_tipopago +
             "&contenido_cuota=" + contenido_cuota;

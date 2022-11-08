@@ -269,20 +269,20 @@
             <div class="col-lg-6">
                 <hr>
                 <div class="row">
-                    <div class="col-lg-5">
-                        <label>Tipo de Comprobante</label>
+                    <div class="col-lg-4">
+                        <label>Tipo de Comprob.</label>
                         <select id="tipo_venta" class="form-control" onchange = "selecttipoventa_(this.value)">
                             <!--<option value="03">BOLETA</option>
                             <option value="01">FACTURA</option>-->
                             <option value= "">Seleccionar...</option>
-                            <option value="20" >NOTA DE VENTA</option>
+                            <!--<option value="20" >NOTA DE VENTA</option>-->
                             <option value="03" selected>BOLETA</option>
                             <option value="01">FACTURA</option>
                             <!--<option value= "07">NOTA DE CREDITO</option>
                             <option value= "08">NOTA DE DEBITO</option>-->
                         </select>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <label>Serie</label>
                         <select name="serie" id="serie" class="form-control" onchange="ConsultarCorrelativo()">
                             <option value="">Seleccionar</option>
@@ -291,6 +291,13 @@
                     <div class="col-lg-3">
                         <label>Numero</label>
                         <input class="form-control" type="text" id="numero" readonly>
+                    </div>
+                    <div class="col-lg-2">
+                        <label>¿Ticket?</label>
+                        <select name="ticketcito" id="ticketcito" class="form-control" onchange="ConsultarCorrelativo()">
+                            <option value="SI" selected >SI</option>
+                            <option value="NO">NO</option>
+                        </select>
                     </div>
                 </div>
                 <br>

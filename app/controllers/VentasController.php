@@ -1198,14 +1198,15 @@ class VentasController
                                     } else {
                                         $cliente_nombre = $cliente->cliente_nombre;
                                     }
-
-                                    //require _VIEW_PATH_ . 'pedido/ticket_nota_venta.php';
+                                    if($_POST['ticketcito'] == 'SI'){
+                                        require _VIEW_PATH_ . 'pedido/ticket_nota_venta.php';
+                                    }
                                 } else {
                                     //INICIO - LISTAR COLUMNAS PARA TICKET DE VENTA
                                     include('libs/ApiFacturacion/phpqrcode/qrlib.php');
 
                                     $venta = $this->ventas->listar_venta_x_id($id_venta);
-                                    $detalle_venta = $this->ventas->listar_venta_detalle_x_id_venta($id_venta);
+                                    $detalle_venta = $this->ventas->listar_venta_detalle_x_id_venta_sin_comandas($id_venta);
                                     $empresa = $this->ventas->listar_empresa_x_id_empresa($venta->id_empresa);
                                     $cliente = $this->ventas->listar_clienteventa_x_id($venta->id_cliente);
                                     //INICIO - CREACION QR
@@ -1230,7 +1231,9 @@ class VentasController
                                         $cliente_nombre = $cliente->cliente_nombre;
                                     }
 
-                                    //require _VIEW_PATH_ . 'pedido/ticket_venta.php';
+                                    if($_POST['ticketcito'] == 'SI'){
+                                        require _VIEW_PATH_ . 'pedido/ticket_venta.php';
+                                    }
                                 }
 
 

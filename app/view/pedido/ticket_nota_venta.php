@@ -41,7 +41,7 @@ $printer->setJustification(Printer::JUSTIFY_CENTER);
 	el logo
 */
 try{
-    $logo = EscposImage::load("media/logo/logo_ticket.png", false);
+    $logo = EscposImage::load("media/logo/logoticket.png", false);
     $printer->bitImage($logo);
 }catch(Exception $e){/*No hacemos nada si hay error*/}
 /*
@@ -49,7 +49,7 @@ try{
 */
 $printer->setFont(Printer::FONT_B);
 $printer->setTextSize(2,2);
-$printer->text("$empresa->empresa_nombrecomercial" . "\n");
+$printer->text("$empresa->empresa_nombrecomercial" . "\n\n");
 $printer->setFont(Printer::FONT_A);
 $printer->setTextSize(1,1);
 //$printer->text("$dato_pago->empresa_nombre" . "\n");

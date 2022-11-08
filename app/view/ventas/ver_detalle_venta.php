@@ -239,7 +239,7 @@
                     </div>
                     <div class="col-lg-3">
                         <a class="btn btn-danger" target="_blank" href="<?php echo _SERVER_. 'Ventas/imprimir_ticket_pdf_A4/' . $id;?>"><i class="fa fa-file-pdf-o"></i> Imprimir</a>
-                        <!--<a id="imprimir_ticket" style="color: white;" class="btn btn-primary" target="_blank" onclick="ticket_venta(<?= $id; ?>)"><i class="fa fa-print"></i> Imprimir Ticket</a>-->
+                        <a id="imprimir_ticket" style="color: white;" class="btn btn-primary" target="_blank" onclick="ticket_venta(<?= $id; ?>)"><i class="fa fa-print"></i> Imprimir Ticket</a>
                     </div>
                 </div>
             </section>
