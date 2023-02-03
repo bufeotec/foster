@@ -156,7 +156,7 @@ class SuscripcionController
 
             require _VIEW_PATH_ . 'header.php';
             require _VIEW_PATH_ . 'navbar.php';
-            require _VIEW_PATH_ . 'suscripciones/por_vencer.php';
+            require _VIEW_PATH_ . 'suscripciones/por_recuperar.php';
             require _VIEW_PATH_ . 'footer.php';
         }catch (Throwable $e){
             //En caso de errores insertamos el error generado y redireccionamos a la vista de inicio

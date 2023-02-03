@@ -31,7 +31,7 @@ class Cliente
     }
     public function listar_cliente_inscritos(){
         try{
-            $sql = 'select distinct c.id_cliente, c.cliente_nombre, c.cliente_numero, c.cliente_direccion, c.cliente_telefono, c.cliente_direccion_2, c.cliente_fecha, c.id_tipodocumento, c.cliente_estado, c.cliente_foto from clientes c inner join suscripciones s on c.id_cliente = s.id_cliente where c.cliente_estado = 1';
+            $sql = 'select distinct c.id_cliente, c.cliente_nombre, c.cliente_numero, c.cliente_direccion, c.cliente_telefono, c.cliente_direccion_2, c.cliente_fecha, c.id_tipodocumento, c.cliente_estado, c.cliente_foto, c.cliente_correo, c.cliente_fecha_nacimiento from clientes c inner join suscripciones s on c.id_cliente = s.id_cliente where c.cliente_estado = 1';
             $stm = $this->pdo->prepare($sql);
             $stm->execute();
             return $stm->fetchAll();

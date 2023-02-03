@@ -389,11 +389,25 @@ function realizar_venta(){
     var id_horario = $('#id_horario').val();
     var ticketcito = $('#ticketcito').val();
 
+    var monto_1 = $('#monto_1').val();
+    var id_tipo_pago_2 = $('#id_tipo_pago_2').val();
+    var monto_2 = $('#monto_2').val();
+
+    var partir_pago = $('#partir_pago').val();
+
     var membresia_crear_suscripcion = $('#membresia_crear_suscripcion').val();
     var membresia_cantidad_suscripcion = $('#membresia_cantidad_suscripcion').val();
     var membresia_tiempo_suscripcion = $('#membresia_tiempo_suscripcion').val();
 
-    var contenido_tipopago = id_tipo_pago + '-.-.' + saleproduct_total + '/-/-';
+    if(partir_pago == 1){
+        var id_tipo_pago_2 = $('#id_tipo_pago_2').val();
+        var monto_2 = $('#monto_2').val();
+        var contenido_tipopago = id_tipo_pago + '-.-.' + monto_1 + '/-/-' + id_tipo_pago_2 + '-.-.' + monto_2 + '/-/-';
+    }else{
+        var contenido_tipopago = id_tipo_pago + '-.-.' + saleproduct_total + '/-/-';
+    }
+
+    //var contenido_tipopago = id_tipo_pago + '-.-.' + saleproduct_total + '/-/-';
 
     var Tipo_documento_modificar = "";
     var serie_modificar = "";
@@ -469,6 +483,9 @@ function realizar_venta(){
             "&ticketcito=" + ticketcito +
             "&id_mesa=-2" +
             "&contenido_tipopago=" + contenido_tipopago +
+            "&monto_1=" + monto_1 +
+            "&id_tipo_pago_2=" + id_tipo_pago_2 +
+            "&monto_2=" + monto_2 +
             "&contenido_cuota=" + contenido_cuota;
         $.ajax({
             type: "POST",

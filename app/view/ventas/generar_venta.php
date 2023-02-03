@@ -300,16 +300,16 @@
                         </select>
                     </div>
                 </div>
-                <br>
                 <div class="row">
-                    <div class="col-lg-12" style="text-align: center">
-                        <h4><strong>Datos del Cliente</strong></h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <!--<div class="col-lg-2"></div>-->
                     <div class="col-lg-4">
-                        <label>Tipo de Pago</label>
+                        <label class="col-form-label">Partir Pago</label>
+                        <select class="form-control" id="partir_pago" name="partir_pago" onchange="partir_pago()">
+                            <option value="1">SI</option>
+                            <option value="2" selected>NO</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="col-form-label">Tipo de Pago</label>
                         <select class="form-control" id="id_tipo_pago" name="id_tipo_pago" onchange="tipo_pago_credito()">
                             <?php
                             foreach ($tipo_pago as $tp){
@@ -320,7 +320,39 @@
                             ?>
                         </select>
                     </div>
+                    <div class="col-lg-4" id="div_monto_1">
+                        <label class="col-form-label">Monto 1</label>
+                        <input type="text" class="form-control" id="monto_1" onblur="monto_dividido(this.value)">
+                    </div>
                     <div class="col-lg-4">
+                    </div>
+                    <div class="col-lg-4" id="div_tipo_pago_2">
+                        <label class="col-form-label">Tipo de Pago 2</label>
+                        <select class="form-control" id="id_tipo_pago_2" name="id_tipo_pago_2">
+                            <?php
+                            foreach ($tipo_pago as $tp){
+                                ?>
+                                <option <?php echo ($tp->id_tipo_pago == 3) ? 'selected' : '';?> value="<?php echo $tp->id_tipo_pago;?>"><?php echo $tp->tipo_pago_nombre;?></option>
+                                <?php
+                            }
+                            ?>
+                        </select>
+                    </div>
+                    <div class="col-lg-4" id="div_monto_2">
+                        <label class="col-form-label">Monto 2</label>
+                        <input type="text" class="form-control" id="monto_2" readonly>
+                    </div>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-12" style="text-align: center">
+                        <h4><strong>Datos del Cliente</strong></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--<div class="col-lg-2"></div>-->
+                    <div class="col-lg-6">
                         <label>Tipo Documento</label>
                         <select  class="form-control" name="select_tipodocumento" id="select_tipodocumento" onchange="select_tipodocumento(this.value)">
                             <option value="">Seleccionar...</option>
@@ -332,7 +364,7 @@
                             ?>
                         </select>
                     </div>
-                    <div class="col-lg-4" style="margin-top: 8px">
+                    <div class="col-lg-6" style="margin-top: 8px">
                         <br>
                         <button class="btn btn-success" type="button" data-toggle="modal" data-target="#basicModal" style="width: 100%"><i class="fa fa-search"></i> Buscar Cliente</button>
                     </div>
@@ -458,6 +490,7 @@
         var valor = $('#tipo_venta').val();
         selecttipoventa_(valor);
         show();
+        partir_pago();
     });
     var productfull = "";
     var unid = "";
@@ -1037,6 +1070,36 @@
                 }
             }
         });
+    }
+
+
+    function partir_pago(){
+        var partir = $('#partir_pago').val();
+        if(partir == 1){
+            $('#div_monto_1').show();
+            $('#div_tipo_pago_2').show();
+            $('#div_monto_2').show();
+        }else {
+            $('#div_monto_1').hide();
+            $('#monto_1').val('');
+            $('#monto_2').val('');
+            $('#div_tipo_pago_2').hide();
+            $('#div_monto_2').hide();
+        }
+
+    }
+
+    function monto_dividido(valor_){
+        var valor = valor_ * 1;
+        var total = $('#montototal').val();
+        if(valor <= total){
+            var resta = total - valor;
+            $('#monto_2').val(resta.toFixed(2));
+        }else{
+            respuesta('Monto ' + valor + ' tiene que ser menor que ' + total);
+            $('#monto_2').val('');
+
+        }
     }
 
 </script>
