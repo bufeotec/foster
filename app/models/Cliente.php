@@ -42,7 +42,7 @@ class Cliente
     }
     public function listar_cliente_id($id_cliente){
         try{
-            $sql = 'select * from clientes where  id_cliente = ?';
+            $sql = 'select * from clientes where  id_cliente = ? and cliente_estado = 1';
             $stm = $this->pdo->prepare($sql);
             $stm->execute([$id_cliente]);
             return $stm->fetch();
@@ -187,7 +187,7 @@ class Cliente
 
     public function jalar_ultimo_cliente(){
         try{
-            $sql = 'select id_cliente, cliente_nombre, cliente_numero,cliente_direccion, cliente_telefono from clientes order by id_cliente desc limit 1';
+            $sql = 'select id_cliente, cliente_nombre, cliente_numero,cliente_direccion, cliente_telefono from clientes where cliente_estado = 1 order by id_cliente desc limit 1';
             $stm = $this->pdo->prepare($sql);
             $stm->execute();
             $result = $stm->fetch();
