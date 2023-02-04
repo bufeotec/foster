@@ -264,9 +264,10 @@ class ClienteController
             $ok_data = $this->validar->validar_parametro('id_cliente', 'POST', true, $ok_data, 11, 'numero', 0);
             //Validacion de datos
             if ($ok_data) {
-                //Eliminamos el receta
+                //Eliminamos el cliente (solo se cambia de estado)
 
-                $result = $this->cliente->eliminar_cliente($_POST['id_cliente']);
+                $result = $this->cliente->eliminar_cliente_cambio_estado($_POST['id_cliente']);
+                //$result = $this->cliente->eliminar_cliente($_POST['id_cliente']);
             } else {
                 //Código 6: Integridad de datos erronea
                 $result = 6;

@@ -750,7 +750,8 @@ class Ventas
     }
     public function listar_productos_(){
         try {
-            $sql = 'select * from productos p inner join producto_precio pp on p.id_producto = pp.id_producto where pp.producto_precio_estado = 1';
+            $sql = 'select * from productos p inner join producto_precio pp on p.id_producto = pp.id_producto 
+                    where pp.producto_precio_estado = 1 and p.producto_estado = 1';
             $stm = $this->pdo->prepare($sql);
             $stm->execute();
             $result = $stm->fetchAll();

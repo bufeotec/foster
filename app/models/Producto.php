@@ -120,7 +120,7 @@ class Producto
     public function listar_productos(){
         try{
             $sql = 'select * from productos p inner join producto_precio pp on p.id_producto = pp.id_producto 
-                    where producto_precio_estado = 1 order by p.id_producto asc';
+                    where producto_precio_estado = 1 and p.producto_estado = 1 order by p.id_producto asc';
             $stm = $this->pdo->prepare($sql);
             $stm->execute();
             $result = $stm->fetchAll();

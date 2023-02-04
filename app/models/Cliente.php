@@ -172,6 +172,18 @@ class Cliente
         }
     }
 
+    public function eliminar_cliente_cambio_estado($id_cliente){
+        try{
+            $sql = 'update clientes set cliente_estado = 0 where id_cliente = ?';
+            $stm = $this->pdo->prepare($sql);
+            $stm->execute([$id_cliente]);
+            return 1;
+        } catch (Throwable $e){
+            $this->log->insertar($e->getMessage(), get_class($this).'|'.__FUNCTION__);
+            return 2;
+        }
+    }
+
 
     public function jalar_ultimo_cliente(){
         try{
