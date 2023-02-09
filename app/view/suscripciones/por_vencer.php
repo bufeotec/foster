@@ -69,7 +69,7 @@
                                 }
 
                                 if($publicar){
-                                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($m->suscripcion_fin, $m->id_cliente);
+                                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($m->suscripcion_fin_actual, $m->id_cliente);
                                     if(isset($verificar_actualizacion_suscripcion->id_suscripcion)){
                                         $publicar = false;
                                     }

@@ -54,7 +54,7 @@ class AdminController{
                     $pasa = false;
                 }
                 if($pasa){
-                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($cle->suscripcion_fin,$cle->id_cliente);
+                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($cle->suscripcion_fin_actual,$cle->id_cliente);
                     if(!isset($verificar_actualizacion_suscripcion->id_suscripcion)){
                         $contar_ya_por_vencer++;
                         $array_nombres[$cle->id_cliente] = $cle->id_cliente . '-';
@@ -72,7 +72,7 @@ class AdminController{
                     $pasa = false;
                 }
                 if($pasa){
-                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($cle->suscripcion_fin,$cle->id_cliente);
+                    $verificar_actualizacion_suscripcion = $this->suscripcion->listar_suscripciones_con_continuacion($cle->suscripcion_fin_actual,$cle->id_cliente);
                     if(!isset($verificar_actualizacion_suscripcion->id_suscripcion)){
                         $contar_ya_por_recuperar++;
                         $array_nombres_recuperar[$cle->id_cliente] = $cle->id_cliente . '-';

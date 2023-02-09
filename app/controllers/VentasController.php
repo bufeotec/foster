@@ -2319,7 +2319,7 @@ class VentasController
             }
             $fecha_hoy = $dato_venta->venta_fecha;
             $ruta_qr = "libs/ApiFacturacion/imagenqr/$dato_venta->empresa_ruc-$dato_venta->venta_tipo-$dato_venta->venta_serie-$dato_venta->venta_correlativo.png";
-            $dnni="DNI";
+            $dnni="DNI o CE";
             $cliente = $this->ventas->listar_clienteventa_x_id($dato_venta->id_cliente);
             if (!file_exists($ruta_qr)) {
                 //INICIO - CREACION QR

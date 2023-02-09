@@ -883,9 +883,12 @@
         if (valor == "4"){
             $('#tipo_venta').val('01');
             selecttipoventa_('01');
-        }else {
+        }else if (valor == "2") {
             $('#tipo_venta').val('03');
             selecttipoventa_('03');
+        } else {
+            $('#tipo_venta').val('03');
+            //selecttipoventa_('03');
         }
     }
 
